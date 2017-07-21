@@ -1,0 +1,4227 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_449e21f4ec6d4fdbb4eea5af0b81a863 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_449e21f4ec6d4fdbb4eea5af0b81a863" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_449e21f4ec6d4fdbb4eea5af0b81a863 = L.map(
+                                  'map_449e21f4ec6d4fdbb4eea5af0b81a863',
+                                  {center: [10,0],
+                                  zoom: 2.1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_b3da77d4300247f596eee4bb279c7c20 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+
+        
+    
+
+            var marker_f8bb592f8b3e4c949f1f1048739ee540 = L.marker(
+                [-25.195128,133.834209],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_0dab7845e4854b9288fcc5919296badc = L.popup({maxWidth: '300'});
+
+            
+                var html_38b55e903a504f929f1b475a2f250403 = $('<div id="html_38b55e903a504f929f1b475a2f250403" style="width: 100.0%; height: 100.0%;">Follow live as we bring you every colourful performance, costume change and controversy in our commentary of the 2017 Eurovision Song Contest.</div>')[0];
+                popup_0dab7845e4854b9288fcc5919296badc.setContent(html_38b55e903a504f929f1b475a2f250403);
+            
+
+            marker_f8bb592f8b3e4c949f1f1048739ee540.bindPopup(popup_0dab7845e4854b9288fcc5919296badc);
+
+            
+        
+    
+
+            var marker_6c43263df87640aa9005d02512a8ac06 = L.marker(
+                [43.1819235,-92.8043936],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_52bdd9b2fac544fb88c776416aa47510 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c7779cec5a1421cb60df34af34f3504 = $('<div id="html_4c7779cec5a1421cb60df34af34f3504" style="width: 100.0%; height: 100.0%;">Britain&#39;s National Cyber Security Centre teams are working round the clock to restore hospital computer systems after what is believed to be the biggest ransomware outbreak in history.</div>')[0];
+                popup_52bdd9b2fac544fb88c776416aa47510.setContent(html_4c7779cec5a1421cb60df34af34f3504);
+            
+
+            marker_6c43263df87640aa9005d02512a8ac06.bindPopup(popup_52bdd9b2fac544fb88c776416aa47510);
+
+            
+        
+    
+
+            var marker_fdf37d5e94554928bbdd4de9cc0253d4 = L.marker(
+                [51.5961739,-0.0128983],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6541c99d9e6a4824813f55147695d1c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec724cefe822447d8813856edf154955 = $('<div id="html_ec724cefe822447d8813856edf154955" style="width: 100.0%; height: 100.0%;">Companies affected by global ransomware attacks should not pay the ransom so as not to feed into the growing business of cyber crime syndicates, a security expert warns.</div>')[0];
+                popup_6541c99d9e6a4824813f55147695d1c8.setContent(html_ec724cefe822447d8813856edf154955);
+            
+
+            marker_fdf37d5e94554928bbdd4de9cc0253d4.bindPopup(popup_6541c99d9e6a4824813f55147695d1c8);
+
+            
+        
+    
+
+            var marker_4517450ae5b94a9db49beea1d2264d5f = L.marker(
+                [31.203817,-97.4561583],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_877e207f1e494b1fab274ac67877463d = L.popup({maxWidth: '300'});
+
+            
+                var html_3108a7baf6c24b59964007ef91f2107a = $('<div id="html_3108a7baf6c24b59964007ef91f2107a" style="width: 100.0%; height: 100.0%;">The Federal Government&#39;s plan to drug test welfare recipients has been compared to a similar policy in New Zealand, but welfare organisations in that country say the program has been far from successful.</div>')[0];
+                popup_877e207f1e494b1fab274ac67877463d.setContent(html_3108a7baf6c24b59964007ef91f2107a);
+            
+
+            marker_4517450ae5b94a9db49beea1d2264d5f.bindPopup(popup_877e207f1e494b1fab274ac67877463d);
+
+            
+        
+    
+
+            var marker_8dea88f2409147f39e2286b6ec8a6a5d = L.marker(
+                [-37.7263336,145.0645366],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_efc2193fafce40e4b83322b1356ded48 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4f241f99737406a9bb8d6abfe61e82a = $('<div id="html_d4f241f99737406a9bb8d6abfe61e82a" style="width: 100.0%; height: 100.0%;">A burger restaurant owned by celebrity chef Neil Perry apologises after one of its staff members directed a racial slur at a customer in Melbourne.</div>')[0];
+                popup_efc2193fafce40e4b83322b1356ded48.setContent(html_d4f241f99737406a9bb8d6abfe61e82a);
+            
+
+            marker_8dea88f2409147f39e2286b6ec8a6a5d.bindPopup(popup_efc2193fafce40e4b83322b1356ded48);
+
+            
+        
+    
+
+            var marker_ba70633018a04fb6b3077ff5128918af = L.marker(
+                [26.895696,30.921947],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_daf9d3f341f24686800ce9f9f6a75ddc = L.popup({maxWidth: '300'});
+
+            
+                var html_6b93cff1b5604b65b4909537a66f645e = $('<div id="html_6b93cff1b5604b65b4909537a66f645e" style="width: 100.0%; height: 100.0%;">Egypt unearths an ancient burial site containing at least 17 mummies in the latest in a string of similar discoveries.</div>')[0];
+                popup_daf9d3f341f24686800ce9f9f6a75ddc.setContent(html_6b93cff1b5604b65b4909537a66f645e);
+            
+
+            marker_ba70633018a04fb6b3077ff5128918af.bindPopup(popup_daf9d3f341f24686800ce9f9f6a75ddc);
+
+            
+        
+    
+
+            var marker_7affa4ad138c4175906a5b22eeb6ade3 = L.marker(
+                [39.0979203,125.8464531],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f84ff040c2254002abeb60725fdfa879 = L.popup({maxWidth: '300'});
+
+            
+                var html_78a829c6e6ff4e7b96192159392931e3 = $('<div id="html_78a829c6e6ff4e7b96192159392931e3" style="width: 100.0%; height: 100.0%;">A senior North Korean diplomat who handles the reclusive country&#39;s US affairs has said Pyongyang would have dialogue with the US administration if conditions are right.</div>')[0];
+                popup_f84ff040c2254002abeb60725fdfa879.setContent(html_78a829c6e6ff4e7b96192159392931e3);
+            
+
+            marker_7affa4ad138c4175906a5b22eeb6ade3.bindPopup(popup_f84ff040c2254002abeb60725fdfa879);
+
+            
+        
+    
+
+            var marker_2f3a8e6043a34b0e878ea86b7a90d632 = L.marker(
+                [46.278353,2.295303],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ecc3181d192547cc9e30f1e656ccfb99 = L.popup({maxWidth: '300'});
+
+            
+                var html_662184aacc224f0dbfbca248b6c8a540 = $('<div id="html_662184aacc224f0dbfbca248b6c8a540" style="width: 100.0%; height: 100.0%;">A key player in the French president-elect&#39;s ascension, Brigitte Macron&#39;s arrival in the Elysee Palace is unusual for reasons those outside France may not appreciate.</div>')[0];
+                popup_ecc3181d192547cc9e30f1e656ccfb99.setContent(html_662184aacc224f0dbfbca248b6c8a540);
+            
+
+            marker_2f3a8e6043a34b0e878ea86b7a90d632.bindPopup(popup_ecc3181d192547cc9e30f1e656ccfb99);
+
+            
+        
+    
+
+            var marker_fef37ab5144c4126819e8efc2910b023 = L.marker(
+                [47.8488111,-120.6385236],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f7c0b15b3ef14fccade7ab2bfc09266f = L.popup({maxWidth: '300'});
+
+            
+                var html_804c591fb4de4a4ba95ffc57576eb4ee = $('<div id="html_804c591fb4de4a4ba95ffc57576eb4ee" style="width: 100.0%; height: 100.0%;">US President Donald Trump warns that former FBI director James Comey had better hope that there are no tapes of their conversations.</div>')[0];
+                popup_f7c0b15b3ef14fccade7ab2bfc09266f.setContent(html_804c591fb4de4a4ba95ffc57576eb4ee);
+            
+
+            marker_fef37ab5144c4126819e8efc2910b023.bindPopup(popup_f7c0b15b3ef14fccade7ab2bfc09266f);
+
+            
+        
+    
+
+            var marker_bda08415b1cf4046bf2d019d01cea670 = L.marker(
+                [-25.202702,133.871261],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_82452479cf7943b19d83a7f4e5d9c7e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_34bea091fa484b18926ba1893e40cac0 = $('<div id="html_34bea091fa484b18926ba1893e40cac0" style="width: 100.0%; height: 100.0%;">New tools to address the growing childhood obesity epidemic are launched including a website with a healthy weight calculator and a video of a nutritionist.</div>')[0];
+                popup_82452479cf7943b19d83a7f4e5d9c7e5.setContent(html_34bea091fa484b18926ba1893e40cac0);
+            
+
+            marker_bda08415b1cf4046bf2d019d01cea670.bindPopup(popup_82452479cf7943b19d83a7f4e5d9c7e5);
+
+            
+        
+    
+
+            var marker_f6de9f5f7d224c5dbe5fbcec10b2636f = L.marker(
+                [36.864522,-119.3484944],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_fc30e7c07bb946f7b54f4764ac14f82d = L.popup({maxWidth: '300'});
+
+            
+                var html_92ef7e690f1b4ee8a434dc49aeada968 = $('<div id="html_92ef7e690f1b4ee8a434dc49aeada968" style="width: 100.0%; height: 100.0%;">International investigation needed to identify culprits of biggest-of-its-kind cyber-extortion attack, Europol says.</div>')[0];
+                popup_fc30e7c07bb946f7b54f4764ac14f82d.setContent(html_92ef7e690f1b4ee8a434dc49aeada968);
+            
+
+            marker_f6de9f5f7d224c5dbe5fbcec10b2636f.bindPopup(popup_fc30e7c07bb946f7b54f4764ac14f82d);
+
+            
+        
+    
+
+            var marker_fe4239d1ec5c4ffb870bdacf99fe10a7 = L.marker(
+                [44.5441171,-73.1056094],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_42b8809f605d4df585eaed465131c416 = L.popup({maxWidth: '300'});
+
+            
+                var html_b68236f603d64c459a6f31d10d5ed19a = $('<div id="html_b68236f603d64c459a6f31d10d5ed19a" style="width: 100.0%; height: 100.0%;">Comments come from senior North Korean official amid increased pressure on Pyongyang’s pursuit of nuclear arms.</div>')[0];
+                popup_42b8809f605d4df585eaed465131c416.setContent(html_b68236f603d64c459a6f31d10d5ed19a);
+            
+
+            marker_fe4239d1ec5c4ffb870bdacf99fe10a7.bindPopup(popup_42b8809f605d4df585eaed465131c416);
+
+            
+        
+    
+
+            var marker_5b1c1889f0314ad3aa38c96810713fcd = L.marker(
+                [52.628203,0.158685],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_bc4114c7e9f3492ebfe6e62d54b4e4f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c01f88cfae942ce8b02e759ef36378b = $('<div id="html_4c01f88cfae942ce8b02e759ef36378b" style="width: 100.0%; height: 100.0%;">The find is the latest in a number of discoveries that officials hope will help revive the struggling tourism industry.</div>')[0];
+                popup_bc4114c7e9f3492ebfe6e62d54b4e4f5.setContent(html_4c01f88cfae942ce8b02e759ef36378b);
+            
+
+            marker_5b1c1889f0314ad3aa38c96810713fcd.bindPopup(popup_bc4114c7e9f3492ebfe6e62d54b4e4f5);
+
+            
+        
+    
+
+            var marker_9ac108a86cbe46c7a896df018cd98f01 = L.marker(
+                [23.705768,-102.458421],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_52c33ea62bfc4cafaa7abe763705c6f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_50049505b09e4903a80aa5a42e34fe5a = $('<div id="html_50049505b09e4903a80aa5a42e34fe5a" style="width: 100.0%; height: 100.0%;">As deportations increase under Donald Trump, the search for work in Guatemalan villages is leading some to a volcano.</div>')[0];
+                popup_52c33ea62bfc4cafaa7abe763705c6f9.setContent(html_50049505b09e4903a80aa5a42e34fe5a);
+            
+
+            marker_9ac108a86cbe46c7a896df018cd98f01.bindPopup(popup_52c33ea62bfc4cafaa7abe763705c6f9);
+
+            
+        
+    
+
+            var marker_282474f4e6474618a4ed904d9782a646 = L.marker(
+                [51.5844519,-0.0677753],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_c0d4463e70504187bdeb738c2e3cc624 = L.popup({maxWidth: '300'});
+
+            
+                var html_f74abfb281d84ce0b7ecfdd1f7da1ed4 = $('<div id="html_f74abfb281d84ce0b7ecfdd1f7da1ed4" style="width: 100.0%; height: 100.0%;">Author, film director and activist Rokhaya Diallo addresses the challenge of racism following the presidential election.</div>')[0];
+                popup_c0d4463e70504187bdeb738c2e3cc624.setContent(html_f74abfb281d84ce0b7ecfdd1f7da1ed4);
+            
+
+            marker_282474f4e6474618a4ed904d9782a646.bindPopup(popup_c0d4463e70504187bdeb738c2e3cc624);
+
+            
+        
+    
+
+            var marker_cdfdecd0bb1a4fb681df24f3a6b446c5 = L.marker(
+                [20.692434,79.05344],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ade8490eb11a4453b7849f3ff3ca90de = L.popup({maxWidth: '300'});
+
+            
+                var html_4869a34fa28d4917acc47a0015dd7504 = $('<div id="html_4869a34fa28d4917acc47a0015dd7504" style="width: 100.0%; height: 100.0%;">A five-judge bench of India&#39;s Supreme Court is hearing petitions by women&#39;s groups seeking to ban verbal divorce.</div>')[0];
+                popup_ade8490eb11a4453b7849f3ff3ca90de.setContent(html_4869a34fa28d4917acc47a0015dd7504);
+            
+
+            marker_cdfdecd0bb1a4fb681df24f3a6b446c5.bindPopup(popup_ade8490eb11a4453b7849f3ff3ca90de);
+
+            
+        
+    
+
+            var marker_6a1117fbfb564b8e9a5a06f4a03acb73 = L.marker(
+                [26.913294,30.898296],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_210d9a8c2a2d4adfa2adddd86334f419 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6a12184d5784def8913d30c3b68b9e1 = $('<div id="html_e6a12184d5784def8913d30c3b68b9e1" style="width: 100.0%; height: 100.0%;">Former Ghanaian president says political problems in South Africa, Nigeria and Egypt will affect the entire continent.</div>')[0];
+                popup_210d9a8c2a2d4adfa2adddd86334f419.setContent(html_e6a12184d5784def8913d30c3b68b9e1);
+            
+
+            marker_6a1117fbfb564b8e9a5a06f4a03acb73.bindPopup(popup_210d9a8c2a2d4adfa2adddd86334f419);
+
+            
+        
+    
+
+            var marker_9c5896a4c1dc40b9a24aa12b0857fea9 = L.marker(
+                [31.104691,34.967816],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_2aba7200ea91479490b3b9da6966c388 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d9763b4784042fba4dadeaf86d1a209 = $('<div id="html_9d9763b4784042fba4dadeaf86d1a209" style="width: 100.0%; height: 100.0%;">Prison doctors should be answerable to Israel&#39;s health ministry, not the prison service, experts contend.</div>')[0];
+                popup_2aba7200ea91479490b3b9da6966c388.setContent(html_9d9763b4784042fba4dadeaf86d1a209);
+            
+
+            marker_9c5896a4c1dc40b9a24aa12b0857fea9.bindPopup(popup_2aba7200ea91479490b3b9da6966c388);
+
+            
+        
+    
+
+            var marker_4ab8a39201d640b0af32ec190ec64917 = L.marker(
+                [21.979485,96.074589],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_cdfb62a85233485b8655626fe7604102 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b9257568c8a4eb8a3655fa3262be29e = $('<div id="html_5b9257568c8a4eb8a3655fa3262be29e" style="width: 100.0%; height: 100.0%;">If Myanmar&#39;s leader and democracy icon Aung San Suu Kyi fails to act on the things that lie within her power, then she fails on her own terms.</div>')[0];
+                popup_cdfb62a85233485b8655626fe7604102.setContent(html_5b9257568c8a4eb8a3655fa3262be29e);
+            
+
+            marker_4ab8a39201d640b0af32ec190ec64917.bindPopup(popup_cdfb62a85233485b8655626fe7604102);
+
+            
+        
+    
+
+            var marker_329142351f79449485f7212f3ad422f8 = L.marker(
+                [51.5668249,-0.0176683],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_656349910815435d96e6046a9ebac62d = L.popup({maxWidth: '300'});
+
+            
+                var html_a37bddbea9f8474c9c5e2a79df8d9676 = $('<div id="html_a37bddbea9f8474c9c5e2a79df8d9676" style="width: 100.0%; height: 100.0%;">A total of 48 NHS trusts were hit by cyber-attack, of which all but six are now back to normal, says home secretary.</div>')[0];
+                popup_656349910815435d96e6046a9ebac62d.setContent(html_a37bddbea9f8474c9c5e2a79df8d9676);
+            
+
+            marker_329142351f79449485f7212f3ad422f8.bindPopup(popup_656349910815435d96e6046a9ebac62d);
+
+            
+        
+    
+
+            var marker_541dfb2da53942e8b556a1ba013c856a = L.marker(
+                [39.9740513,-75.290253],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4c0832684ba341ce989adb30b330026e = L.popup({maxWidth: '300'});
+
+            
+                var html_797e5a0f0ddb4c49ab3944fdc7ff7ec1 = $('<div id="html_797e5a0f0ddb4c49ab3944fdc7ff7ec1" style="width: 100.0%; height: 100.0%;">The 22-year-old UK researcher tells how he stopped a global cyber-attack by spending £8.</div>')[0];
+                popup_4c0832684ba341ce989adb30b330026e.setContent(html_797e5a0f0ddb4c49ab3944fdc7ff7ec1);
+            
+
+            marker_541dfb2da53942e8b556a1ba013c856a.bindPopup(popup_4c0832684ba341ce989adb30b330026e);
+
+            
+        
+    
+
+            var marker_b3c2140c0e7c46db8ade6d386772cdf0 = L.marker(
+                [34.5806609,-84.7785392],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_fead760b12064cbc856a0c495d27b3fe = L.popup({maxWidth: '300'});
+
+            
+                var html_a62cff9a7d4a4d53822f2b43d3ffc853 = $('<div id="html_a62cff9a7d4a4d53822f2b43d3ffc853" style="width: 100.0%; height: 100.0%;">Ex-PM urges voters not to give Theresa May a &#34;free hand&#34; as he warns of rising poverty levels.</div>')[0];
+                popup_fead760b12064cbc856a0c495d27b3fe.setContent(html_a62cff9a7d4a4d53822f2b43d3ffc853);
+            
+
+            marker_b3c2140c0e7c46db8ade6d386772cdf0.bindPopup(popup_fead760b12064cbc856a0c495d27b3fe);
+
+            
+        
+    
+
+            var marker_4be5eadf9b7b45eda3c7594f3d96ddc0 = L.marker(
+                [33.6202178,-86.743619],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_7616881dd99741d194856ebffe1bf293 = L.popup({maxWidth: '300'});
+
+            
+                var html_35a10de93faf4a58a5de2cb684cb3edc = $('<div id="html_35a10de93faf4a58a5de2cb684cb3edc" style="width: 100.0%; height: 100.0%;">Carli Lloyd is among the scorers as Manchester City cruise past Birmingham to win the Women&#39;s FA Cup for the first time.</div>')[0];
+                popup_7616881dd99741d194856ebffe1bf293.setContent(html_35a10de93faf4a58a5de2cb684cb3edc);
+            
+
+            marker_4be5eadf9b7b45eda3c7594f3d96ddc0.bindPopup(popup_7616881dd99741d194856ebffe1bf293);
+
+            
+        
+    
+
+            var marker_f1f536e107424e1f95cca95478f94f5e = L.marker(
+                [26.900368,30.8656],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_82b65290d85f4e8e945928e5e6c2968e = L.popup({maxWidth: '300'});
+
+            
+                var html_32f3001aa405474fa4fb53249b479426 = $('<div id="html_32f3001aa405474fa4fb53249b479426" style="width: 100.0%; height: 100.0%;">As many as 32 mummies may be in the chamber, according to Professor Salah Al-Kholi, of Cairo University.</div>')[0];
+                popup_82b65290d85f4e8e945928e5e6c2968e.setContent(html_32f3001aa405474fa4fb53249b479426);
+            
+
+            marker_f1f536e107424e1f95cca95478f94f5e.bindPopup(popup_82b65290d85f4e8e945928e5e6c2968e);
+
+            
+        
+    
+
+            var marker_bba77b51e5e24c36a128c36bb3f3c476 = L.marker(
+                [56.21299,-106.23524],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d375af50a3244daab3f90786e7f59f35 = L.popup({maxWidth: '300'});
+
+            
+                var html_d88d1707cc61408b8c3edba9a26833cb = $('<div id="html_d88d1707cc61408b8c3edba9a26833cb" style="width: 100.0%; height: 100.0%;">Canada&#39;s leader and the internet&#39;s favourite politician strikes publicity gold... again.</div>')[0];
+                popup_d375af50a3244daab3f90786e7f59f35.setContent(html_d88d1707cc61408b8c3edba9a26833cb);
+            
+
+            marker_bba77b51e5e24c36a128c36bb3f3c476.bindPopup(popup_d375af50a3244daab3f90786e7f59f35);
+
+            
+        
+    
+
+            var marker_1455812345c14d6c98a80a763ec75660 = L.marker(
+                [39.463958,-8.144141],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_c19a7f03eeb54af0808790fc2b8ec2a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ebd1fe94895418e91c6ac19ba6a8203 = $('<div id="html_9ebd1fe94895418e91c6ac19ba6a8203" style="width: 100.0%; height: 100.0%;">Hundreds of thousands attend the ceremony as Pope Francis makes two shepherd children saints.</div>')[0];
+                popup_c19a7f03eeb54af0808790fc2b8ec2a0.setContent(html_9ebd1fe94895418e91c6ac19ba6a8203);
+            
+
+            marker_1455812345c14d6c98a80a763ec75660.bindPopup(popup_c19a7f03eeb54af0808790fc2b8ec2a0);
+
+            
+        
+    
+
+            var marker_9dbf850ab9c046e09bd5103141a4e1ec = L.marker(
+                [56.5830362,-4.1295148],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_416ea5802d37420c84a9e725a8e7c3ae = L.popup({maxWidth: '300'});
+
+            
+                var html_34f78fe6ca3b45e0adb416f26a1e1c0b = $('<div id="html_34f78fe6ca3b45e0adb416f26a1e1c0b" style="width: 100.0%; height: 100.0%;">While on a visit to Northern Ireland, the PM says she wants power-sharing to be restored.</div>')[0];
+                popup_416ea5802d37420c84a9e725a8e7c3ae.setContent(html_34f78fe6ca3b45e0adb416f26a1e1c0b);
+            
+
+            marker_9dbf850ab9c046e09bd5103141a4e1ec.bindPopup(popup_416ea5802d37420c84a9e725a8e7c3ae);
+
+            
+        
+    
+
+            var marker_95d1cfd9aead4da282b61b436969d814 = L.marker(
+                [56.5696852,-4.1133788],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f6f6e725b5fe473aa1821c35477167ab = L.popup({maxWidth: '300'});
+
+            
+                var html_041102e0144441f7ab8c78813275a8b9 = $('<div id="html_041102e0144441f7ab8c78813275a8b9" style="width: 100.0%; height: 100.0%;">The Green Party&#39;s manifesto for women would also end asylum detention.</div>')[0];
+                popup_f6f6e725b5fe473aa1821c35477167ab.setContent(html_041102e0144441f7ab8c78813275a8b9);
+            
+
+            marker_95d1cfd9aead4da282b61b436969d814.bindPopup(popup_f6f6e725b5fe473aa1821c35477167ab);
+
+            
+        
+    
+
+            var marker_47dab70f8c7a47598ea4a3ffb42a9805 = L.marker(
+                [40.7607043,-89.5159074],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_beeb7fc9b3c446989498aec2c5db34c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2062e08f33643a8b8ba68112544f750 = $('<div id="html_e2062e08f33643a8b8ba68112544f750" style="width: 100.0%; height: 100.0%;">Bradley Lowery was carried onto the pitch by his hero Jermain Defoe.</div>')[0];
+                popup_beeb7fc9b3c446989498aec2c5db34c7.setContent(html_e2062e08f33643a8b8ba68112544f750);
+            
+
+            marker_47dab70f8c7a47598ea4a3ffb42a9805.bindPopup(popup_beeb7fc9b3c446989498aec2c5db34c7);
+
+            
+        
+    
+
+            var marker_6bb6fc5d96ef4e398a2b468bad0459b2 = L.marker(
+                [47.8262331,-120.6488066],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_c710654c7f0b4095ba969ced18961267 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab212258ba7048f0acbfe435041c635b = $('<div id="html_ab212258ba7048f0acbfe435041c635b" style="width: 100.0%; height: 100.0%;">President Donald Trump&#39;s firing of FBI Director James Comey has uncoiled a whole administration&#39;s worth of shocks, contradictions and blockbuster moments.</div>')[0];
+                popup_c710654c7f0b4095ba969ced18961267.setContent(html_ab212258ba7048f0acbfe435041c635b);
+            
+
+            marker_6bb6fc5d96ef4e398a2b468bad0459b2.bindPopup(popup_c710654c7f0b4095ba969ced18961267);
+
+            
+        
+    
+
+            var marker_68d894f52cf74f159b7c91808a46a79d = L.marker(
+                [37.4867874,-78.5757152],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_c4e1d955c77e4dc492352f31598e92fd = L.popup({maxWidth: '300'});
+
+            
+                var html_22eeb77998ff43fba7a0ecd3bb35da81 = $('<div id="html_22eeb77998ff43fba7a0ecd3bb35da81" style="width: 100.0%; height: 100.0%;">A buoyant President Donald Trump reemerged into public for the first time in more than a week on Friday, offering few signs of the malaise that has gripped his administration since the hasty dismissal of FBI Director James Comey.</div>')[0];
+                popup_c4e1d955c77e4dc492352f31598e92fd.setContent(html_22eeb77998ff43fba7a0ecd3bb35da81);
+            
+
+            marker_68d894f52cf74f159b7c91808a46a79d.bindPopup(popup_c4e1d955c77e4dc492352f31598e92fd);
+
+            
+        
+    
+
+            var marker_d9470e85f2c74d258587c489bc9841a5 = L.marker(
+                [61.598024,105.420018],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_77b21749a7d44a4b9c16de39ca609085 = L.popup({maxWidth: '300'});
+
+            
+                var html_130e462fec5c4e6e9f4d0dd0fccea6a2 = $('<div id="html_130e462fec5c4e6e9f4d0dd0fccea6a2" style="width: 100.0%; height: 100.0%;">Former Director of National Intelligence James Clapper told MSNBC&#39;S Andrea Mitchell on Friday that there could be evidence of collusion between Russia and President Donald Trump&#39;s 2016 campaign -- a statement that comes on the heels of an apparent public threat Trump made this morning to fired FBI Director James Comey, tweeting that Comey had better hope their conversations have not been taped.</div>')[0];
+                popup_77b21749a7d44a4b9c16de39ca609085.setContent(html_130e462fec5c4e6e9f4d0dd0fccea6a2);
+            
+
+            marker_d9470e85f2c74d258587c489bc9841a5.bindPopup(popup_77b21749a7d44a4b9c16de39ca609085);
+
+            
+        
+    
+
+            var marker_1e579797cabd47e59d20023d90f0ad74 = L.marker(
+                [45.3289388,-94.8551148],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9895728147704dd4b1864377a279367f = L.popup({maxWidth: '300'});
+
+            
+                var html_f88260e253d947c4ac856ba888035cc3 = $('<div id="html_f88260e253d947c4ac856ba888035cc3" style="width: 100.0%; height: 100.0%;">Trump&#39;s firing of Comey reflects his inability to control his childlike temperament, even if, as Michael D&#39;Antonio writes, maturity would serve the country&#39;s interests.</div>')[0];
+                popup_9895728147704dd4b1864377a279367f.setContent(html_f88260e253d947c4ac856ba888035cc3);
+            
+
+            marker_1e579797cabd47e59d20023d90f0ad74.bindPopup(popup_9895728147704dd4b1864377a279367f);
+
+            
+        
+    
+
+            var marker_a16a1e2333ca42e4b01572570479f4aa = L.marker(
+                [35.960195,104.25546],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_664217ab009c4a0da5236b238a96673d = L.popup({maxWidth: '300'});
+
+            
+                var html_714495f7af3c4bcb941495bd5196e0bb = $('<div id="html_714495f7af3c4bcb941495bd5196e0bb" style="width: 100.0%; height: 100.0%;">Organizations around the world were digging out Saturday from what experts are calling one of the biggest cyberattacks ever.</div>')[0];
+                popup_664217ab009c4a0da5236b238a96673d.setContent(html_714495f7af3c4bcb941495bd5196e0bb);
+            
+
+            marker_a16a1e2333ca42e4b01572570479f4aa.bindPopup(popup_664217ab009c4a0da5236b238a96673d);
+
+            
+        
+    
+
+            var marker_9622479977024d2ca559d837b270d658 = L.marker(
+                [52.4528557,-1.0879397],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_73b9a553938c44a8a7dca751bfda0048 = L.popup({maxWidth: '300'});
+
+            
+                var html_b2debbbf7db3476d80322c84aa35859f = $('<div id="html_b2debbbf7db3476d80322c84aa35859f" style="width: 100.0%; height: 100.0%;">Take precautions against the ransomware attack taking computers hostage around the world.</div>')[0];
+                popup_73b9a553938c44a8a7dca751bfda0048.setContent(html_b2debbbf7db3476d80322c84aa35859f);
+            
+
+            marker_9622479977024d2ca559d837b270d658.bindPopup(popup_73b9a553938c44a8a7dca751bfda0048);
+
+            
+        
+    
+
+            var marker_f7240c66cb3848b69d5f6c3542d22fd8 = L.marker(
+                [47.8482241,-120.6306866],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8445985d49014bf89844ff7cf434752b = L.popup({maxWidth: '300'});
+
+            
+                var html_7ce142534e5442848d2c8b4f60dbf680 = $('<div id="html_7ce142534e5442848d2c8b4f60dbf680" style="width: 100.0%; height: 100.0%;">In his first commencement speech as president, Donald Trump encouraged graduating seniors at Liberty University to draw lessons from his example as a political outsider, telling them to embrace being criticized at the end of a week during which he very much was.</div>')[0];
+                popup_8445985d49014bf89844ff7cf434752b.setContent(html_7ce142534e5442848d2c8b4f60dbf680);
+            
+
+            marker_f7240c66cb3848b69d5f6c3542d22fd8.bindPopup(popup_8445985d49014bf89844ff7cf434752b);
+
+            
+        
+    
+
+            var marker_882e6f6d46394cb9af5b60ef33a09010 = L.marker(
+                [39.1845152,-84.4594946],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_455d95bd3855484db79f1e823e0db114 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e7cb311061143eda1bc68ba5d88018d = $('<div id="html_4e7cb311061143eda1bc68ba5d88018d" style="width: 100.0%; height: 100.0%;">Security footage shows an 8-year-old unconscious at a Cincinnati school in an incident that may have led to the boy&#39;s suicide two days later, an attorney for his family said.</div>')[0];
+                popup_455d95bd3855484db79f1e823e0db114.setContent(html_4e7cb311061143eda1bc68ba5d88018d);
+            
+
+            marker_882e6f6d46394cb9af5b60ef33a09010.bindPopup(popup_455d95bd3855484db79f1e823e0db114);
+
+            
+        
+    
+
+            var marker_b36273fd35ce4e2c82de050fe2381a57 = L.marker(
+                [42.3786679,-85.4885246],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_683f8e27bb554cf6ae8f6cb227e06d91 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8521ad45fc8409b8648b727fe0d401f = $('<div id="html_c8521ad45fc8409b8648b727fe0d401f" style="width: 100.0%; height: 100.0%;">Former gymnast Rachael Denhollander said she thought Dr. Larry Nassar was the top doctor for her sport, but that he sexually abused her during massage treatment.</div>')[0];
+                popup_683f8e27bb554cf6ae8f6cb227e06d91.setContent(html_c8521ad45fc8409b8648b727fe0d401f);
+            
+
+            marker_b36273fd35ce4e2c82de050fe2381a57.bindPopup(popup_683f8e27bb554cf6ae8f6cb227e06d91);
+
+            
+        
+    
+
+            var marker_6789f9a82e944ff0a222ff63cc2a7b8d = L.marker(
+                [47.8464421,-120.6657036],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6473eb997c4842198e4b8275c902ef3d = L.popup({maxWidth: '300'});
+
+            
+                var html_966935a5566f414d8cc4cbad4f40e9ae = $('<div id="html_966935a5566f414d8cc4cbad4f40e9ae" style="width: 100.0%; height: 100.0%;">President Donald Trump&#39;s firing of FBI Director James Comey has uncoiled a whole administration&#39;s worth of shocks, contradictions and blockbuster moments.</div>')[0];
+                popup_6473eb997c4842198e4b8275c902ef3d.setContent(html_966935a5566f414d8cc4cbad4f40e9ae);
+            
+
+            marker_6789f9a82e944ff0a222ff63cc2a7b8d.bindPopup(popup_6473eb997c4842198e4b8275c902ef3d);
+
+            
+        
+    
+
+            var marker_a7e7e46396304de6a935611aec7b5525 = L.marker(
+                [42.490947,-83.2265421],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8de4fbfde35347419c67d382be01e8d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_274a265685b3488cb29d2bd82669d52c = $('<div id="html_274a265685b3488cb29d2bd82669d52c" style="width: 100.0%; height: 100.0%;">He also urged graduates not to become critics and spoke a little bit about football.</div>')[0];
+                popup_8de4fbfde35347419c67d382be01e8d9.setContent(html_274a265685b3488cb29d2bd82669d52c);
+            
+
+            marker_a7e7e46396304de6a935611aec7b5525.bindPopup(popup_8de4fbfde35347419c67d382be01e8d9);
+
+            
+        
+    
+
+            var marker_97ed7f9bb8684b6d928291b2b9997740 = L.marker(
+                [51.5860929,-0.0674843],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_805e88e4d5374be192f4f49dd48696fb = L.popup({maxWidth: '300'});
+
+            
+                var html_47940947112a44228e374baabe26a57d = $('<div id="html_47940947112a44228e374baabe26a57d" style="width: 100.0%; height: 100.0%;">A total of 48 NHS trusts were hit by cyber-attack, of which all but six are now back to normal, says home secretary.</div>')[0];
+                popup_805e88e4d5374be192f4f49dd48696fb.setContent(html_47940947112a44228e374baabe26a57d);
+            
+
+            marker_97ed7f9bb8684b6d928291b2b9997740.bindPopup(popup_805e88e4d5374be192f4f49dd48696fb);
+
+            
+        
+    
+
+            var marker_69ac692444b943fa8d67810c0b8845ce = L.marker(
+                [47.8496991,-120.6443446],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_08231c3731834eff824d7761b3af867a = L.popup({maxWidth: '300'});
+
+            
+                var html_32dd2ba54522467b91c722ca99c0f3aa = $('<div id="html_32dd2ba54522467b91c722ca99c0f3aa" style="width: 100.0%; height: 100.0%;">The nation&#39;s federal prosecutors should bring the toughest charges possible against most crime suspects, Attorney General Jeff Sessions instructed in a move that critics assailed as a return to failed drug-war policies that unduly affected minorities and filled prisons with nonviolent offenders.</div>')[0];
+                popup_08231c3731834eff824d7761b3af867a.setContent(html_32dd2ba54522467b91c722ca99c0f3aa);
+            
+
+            marker_69ac692444b943fa8d67810c0b8845ce.bindPopup(popup_08231c3731834eff824d7761b3af867a);
+
+            
+        
+    
+
+            var marker_35777c3b606a41d8b605f81a46c16ae7 = L.marker(
+                [39.7127953,-8.5527582],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_95d4c19049454d33ad7caa90f7c5d88f = L.popup({maxWidth: '300'});
+
+            
+                var html_b841e1d0d311410e9788398797ae3e21 = $('<div id="html_b841e1d0d311410e9788398797ae3e21" style="width: 100.0%; height: 100.0%;">The &#34;little shepherds&#34; were small children when they reported a vision of the Virgin Mary one hundred years ago today in Fatima, Portugal. The farm town has since become an important Catholic shrine.</div>')[0];
+                popup_95d4c19049454d33ad7caa90f7c5d88f.setContent(html_b841e1d0d311410e9788398797ae3e21);
+            
+
+            marker_35777c3b606a41d8b605f81a46c16ae7.bindPopup(popup_95d4c19049454d33ad7caa90f7c5d88f);
+
+            
+        
+    
+
+            var marker_1e74f9222c844603a36b085e609595bd = L.marker(
+                [37.8008809,-78.8328768],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_20f0ff33f0ea4c3b9d91f510a06d3e81 = L.popup({maxWidth: '300'});
+
+            
+                var html_faa40f330d4d48a5be88cbcfe37d852a = $('<div id="html_faa40f330d4d48a5be88cbcfe37d852a" style="width: 100.0%; height: 100.0%;">Anything except releasing the documents falls short.</div>')[0];
+                popup_20f0ff33f0ea4c3b9d91f510a06d3e81.setContent(html_faa40f330d4d48a5be88cbcfe37d852a);
+            
+
+            marker_1e74f9222c844603a36b085e609595bd.bindPopup(popup_20f0ff33f0ea4c3b9d91f510a06d3e81);
+
+            
+        
+    
+
+            var marker_68aeb057540f40ad8c7af6dca91df1b3 = L.marker(
+                [35.955572,104.262857],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9e042eecdbb24f1781419adac5aa7d59 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6efeb95c1bf4fa0a75fea324481959b = $('<div id="html_a6efeb95c1bf4fa0a75fea324481959b" style="width: 100.0%; height: 100.0%;">Forbes Welcome page -- Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle.</div>')[0];
+                popup_9e042eecdbb24f1781419adac5aa7d59.setContent(html_a6efeb95c1bf4fa0a75fea324481959b);
+            
+
+            marker_68aeb057540f40ad8c7af6dca91df1b3.bindPopup(popup_9e042eecdbb24f1781419adac5aa7d59);
+
+            
+        
+    
+
+            var marker_7310bb4805f24b2abc5cdeac91536652 = L.marker(
+                [39.9828369,116.4683853],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_67c14c66490442308d7ecf14af523d2a = L.popup({maxWidth: '300'});
+
+            
+                var html_a660f6cb82bc4e1cb7074262b5076f9b = $('<div id="html_a660f6cb82bc4e1cb7074262b5076f9b" style="width: 100.0%; height: 100.0%;">A diplomat for North Korea …</div>')[0];
+                popup_67c14c66490442308d7ecf14af523d2a.setContent(html_a660f6cb82bc4e1cb7074262b5076f9b);
+            
+
+            marker_7310bb4805f24b2abc5cdeac91536652.bindPopup(popup_67c14c66490442308d7ecf14af523d2a);
+
+            
+        
+    
+
+            var marker_11ba13fa9dcd4d30892954e59f56e581 = L.marker(
+                [47.8353181,-120.6294536],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_2a7b1a33982f40f89be649dbe35dfecd = L.popup({maxWidth: '300'});
+
+            
+                var html_f89abe77fbfe4350949bdbf88124c967 = $('<div id="html_f89abe77fbfe4350949bdbf88124c967" style="width: 100.0%; height: 100.0%;">The former first lady got fired up talking about the issues she championed during her eight years in the White House. Last week the Trump administration announced changes to school nutrition rules.</div>')[0];
+                popup_2a7b1a33982f40f89be649dbe35dfecd.setContent(html_f89abe77fbfe4350949bdbf88124c967);
+            
+
+            marker_11ba13fa9dcd4d30892954e59f56e581.bindPopup(popup_2a7b1a33982f40f89be649dbe35dfecd);
+
+            
+        
+    
+
+            var marker_3ca7f9cd25d74d348b4ea268e757e8ac = L.marker(
+                [46.290863,2.281738],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4a467e707fcc41d5b40dfead21bfc8e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_84bd749efa0c47248103e2b4995088fb = $('<div id="html_84bd749efa0c47248103e2b4995088fb" style="width: 100.0%; height: 100.0%;">President-elect Emmanuel Macron promised that his new movement would reinvigorate French politics by bringing in a greater variety of lawmakers. On Saturday, candidates running under his banner got to see just how different they are from politics as usual.</div>')[0];
+                popup_4a467e707fcc41d5b40dfead21bfc8e9.setContent(html_84bd749efa0c47248103e2b4995088fb);
+            
+
+            marker_3ca7f9cd25d74d348b4ea268e757e8ac.bindPopup(popup_4a467e707fcc41d5b40dfead21bfc8e9);
+
+            
+        
+    
+
+            var marker_6d4163b23ae041d98d175cf66629cd6f = L.marker(
+                [43.1894635,-92.8404266],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6c565342b0324d3998a7dacdd4bcc87b = L.popup({maxWidth: '300'});
+
+            
+                var html_66387e24c4f94de7a2e23f8d21276e36 = $('<div id="html_66387e24c4f94de7a2e23f8d21276e36" style="width: 100.0%; height: 100.0%;">Six NHS trusts in England are still being affected by the ransomware cyber attack, Home Secretary Amber Rudd has said following a meeting of the Government’s emergency Cobra committee. Ms Rudd said 48 of the 248 trusts in England were hit by the program but the other 42 had managed to recover control of their systems.</div>')[0];
+                popup_6c565342b0324d3998a7dacdd4bcc87b.setContent(html_66387e24c4f94de7a2e23f8d21276e36);
+            
+
+            marker_6d4163b23ae041d98d175cf66629cd6f.bindPopup(popup_6c565342b0324d3998a7dacdd4bcc87b);
+
+            
+        
+    
+
+            var marker_259ee36ebc5d458e9361bef99b57c251 = L.marker(
+                [48.460684,31.245268],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_02d4eea7ffab412c9f2a2d3c3908dac7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b52041c10923400c9513ff5d03c43b73 = $('<div id="html_b52041c10923400c9513ff5d03c43b73" style="width: 100.0%; height: 100.0%;">It&#39;s finally time for the most glorious night of the year - live, it&#39;s the Eurovision Song Contest 2017.  We all know the drill. Grab your flags, and remind yourself why you&#39;re always fooled into thinking the UK will win when it definitely won&#39;t. Then again, Eurovision is always full of surprises, isn&#39;t it? Scroll down for our live blog for the Eurovision Song Contest 2017 - as it happens on stage in Kiev, Ukraine!</div>')[0];
+                popup_02d4eea7ffab412c9f2a2d3c3908dac7.setContent(html_b52041c10923400c9513ff5d03c43b73);
+            
+
+            marker_259ee36ebc5d458e9361bef99b57c251.bindPopup(popup_02d4eea7ffab412c9f2a2d3c3908dac7);
+
+            
+        
+    
+
+            var marker_f8f864092ba84b58a9c3955a788b40b7 = L.marker(
+                [56.5551472,-4.1311418],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_7fd04d93bce04cafbe592a01876271ae = L.popup({maxWidth: '300'});
+
+            
+                var html_8ad137e985c64ce196198c67f1381258 = $('<div id="html_8ad137e985c64ce196198c67f1381258" style="width: 100.0%; height: 100.0%;">More voters expect to pay higher taxes under a Conservative government than under a Labour one, according to a ComRes opinion poll for The Independent. The finding, which contradicts the image of Labour as the tax-and-spend party, comes in the week that the party’s draft manifesto, containing plans to raise taxes on companies and on people earning more than £80,000 a year, was leaked.</div>')[0];
+                popup_7fd04d93bce04cafbe592a01876271ae.setContent(html_8ad137e985c64ce196198c67f1381258);
+            
+
+            marker_f8f864092ba84b58a9c3955a788b40b7.bindPopup(popup_7fd04d93bce04cafbe592a01876271ae);
+
+            
+        
+    
+
+            var marker_b682298a96384bcf91fdf6bf77a2dd0b = L.marker(
+                [51.5785959,-0.0644033],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e711231f6dfb4a30b3a98d283e374f5a = L.popup({maxWidth: '300'});
+
+            
+                var html_4e4b174c40314e8c9bdadc9ca17dd846 = $('<div id="html_4e4b174c40314e8c9bdadc9ca17dd846" style="width: 100.0%; height: 100.0%;">Business leaders have warned Theresa May she will damage the economy by renewing the Government’s commitment to reduce net migration to under 100,000 a year. Five leading business groups have told The Independent they are worried the controversial target to cut the figure – which stood at 273,000 for the year to September – to “tens of thousands” will deny companies the foreign workers they need to meet the huge challenges they face post-Brexit.</div>')[0];
+                popup_e711231f6dfb4a30b3a98d283e374f5a.setContent(html_4e4b174c40314e8c9bdadc9ca17dd846);
+            
+
+            marker_b682298a96384bcf91fdf6bf77a2dd0b.bindPopup(popup_e711231f6dfb4a30b3a98d283e374f5a);
+
+            
+        
+    
+
+            var marker_5904a4aae0344e089a39c5a973a9ddd7 = L.marker(
+                [51.994908,0.943715],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_145eab482a7e479a82aa328453c7f54c = L.popup({maxWidth: '300'});
+
+            
+                var html_bdf7d34c30504cddba6081b5cdeb3d3c = $('<div id="html_bdf7d34c30504cddba6081b5cdeb3d3c" style="width: 100.0%; height: 100.0%;">A university student has been found dead in woodland a day after she went missing in Colchester. Hannah Webster, 20, who was studying finance at Essex University, went missing on Thursday sparking a massive hunt to find her. A social media campaign spread quickly across Facebook and Twitter with hundreds of people sending messages.</div>')[0];
+                popup_145eab482a7e479a82aa328453c7f54c.setContent(html_bdf7d34c30504cddba6081b5cdeb3d3c);
+            
+
+            marker_5904a4aae0344e089a39c5a973a9ddd7.bindPopup(popup_145eab482a7e479a82aa328453c7f54c);
+
+            
+        
+    
+
+            var marker_52d2054786e54b8e81da32d9414ee566 = L.marker(
+                [52.0113741,4.5320085],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_fcb680fea32f4809828ed1fca11621b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_00ad6a39447d4fc2a6af22eb791dcb81 = $('<div id="html_00ad6a39447d4fc2a6af22eb791dcb81" style="width: 100.0%; height: 100.0%;">A sperm bank boss used his own samples to impregnate women through IVF treatment, it has been claimed. Parents and children are now going to court to ask for DNA tests on Jan Karbaat, who ran the Bijdorp clinic near Rotterdam in the Netherlands. Mr Karbaat died last month aged 89.</div>')[0];
+                popup_fcb680fea32f4809828ed1fca11621b2.setContent(html_00ad6a39447d4fc2a6af22eb791dcb81);
+            
+
+            marker_52d2054786e54b8e81da32d9414ee566.bindPopup(popup_fcb680fea32f4809828ed1fca11621b2);
+
+            
+        
+    
+
+            var marker_d60acb5bd5ce4dff9ba1d11a71929174 = L.marker(
+                [-37.7573196,145.0225856],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d6a338fc6b03406581834301b0685b62 = L.popup({maxWidth: '300'});
+
+            
+                var html_6293fa14fca448e6ac6d15a6e653d151 = $('<div id="html_6293fa14fca448e6ac6d15a6e653d151" style="width: 100.0%; height: 100.0%;">A waiter at a celebrity restaurant has been fired after using a racial slur on a customer’s receipt. Rutendo Ruth Muchinguri became aware of the issue after her “hard working black husband” Nicholas, had lunch with friends. The Burger Project in Melbourne is owned by celebrity chef Neil Perry.</div>')[0];
+                popup_d6a338fc6b03406581834301b0685b62.setContent(html_6293fa14fca448e6ac6d15a6e653d151);
+            
+
+            marker_d60acb5bd5ce4dff9ba1d11a71929174.bindPopup(popup_d6a338fc6b03406581834301b0685b62);
+
+            
+        
+    
+
+            var marker_00fcce7cfb864cacb8aaf8ed3e60ecac = L.marker(
+                [43.2100875,-92.8010666],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_df44a5c68d124897b71aebc8665e3aa0 = L.popup({maxWidth: '300'});
+
+            
+                var html_db0680dd41c449c8ac87428d3c2de609 = $('<div id="html_db0680dd41c449c8ac87428d3c2de609" style="width: 100.0%; height: 100.0%;">He&#39;s apparently spotted a vulnerability in the code.</div>')[0];
+                popup_df44a5c68d124897b71aebc8665e3aa0.setContent(html_db0680dd41c449c8ac87428d3c2de609);
+            
+
+            marker_00fcce7cfb864cacb8aaf8ed3e60ecac.bindPopup(popup_df44a5c68d124897b71aebc8665e3aa0);
+
+            
+        
+    
+
+            var marker_29851a7ad2394df0a52a98cc0528f5d0 = L.marker(
+                [33.1559922,-97.1797946],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_a9e3e9874a8d4ec0b420d3523804e906 = L.popup({maxWidth: '300'});
+
+            
+                var html_3c59845e15cf42ac85e8b65348014dbc = $('<div id="html_3c59845e15cf42ac85e8b65348014dbc" style="width: 100.0%; height: 100.0%;">Swoon</div>')[0];
+                popup_a9e3e9874a8d4ec0b420d3523804e906.setContent(html_3c59845e15cf42ac85e8b65348014dbc);
+            
+
+            marker_29851a7ad2394df0a52a98cc0528f5d0.bindPopup(popup_a9e3e9874a8d4ec0b420d3523804e906);
+
+            
+        
+    
+
+            var marker_60b1624bcf064f26b7ac28e0c52b7fb9 = L.marker(
+                [32.8290403,-100.2589555],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_293795882b4a4e0289c96864126ac587 = L.popup({maxWidth: '300'});
+
+            
+                var html_30f88c43a6c64550975b769a5472b01b = $('<div id="html_30f88c43a6c64550975b769a5472b01b" style="width: 100.0%; height: 100.0%;">Around 11 people are being considered in total</div>')[0];
+                popup_293795882b4a4e0289c96864126ac587.setContent(html_30f88c43a6c64550975b769a5472b01b);
+            
+
+            marker_60b1624bcf064f26b7ac28e0c52b7fb9.bindPopup(popup_293795882b4a4e0289c96864126ac587);
+
+            
+        
+    
+
+            var marker_0a3524a9b46149d1b6acc568ac1bb812 = L.marker(
+                [51.5806209,-0.0696863],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_19cc7125100649288e984c3c8669ea98 = L.popup({maxWidth: '300'});
+
+            
+                var html_81113af6408842eea739249a0704fe72 = $('<div id="html_81113af6408842eea739249a0704fe72" style="width: 100.0%; height: 100.0%;">Experts have asked Jeremy Hunt why it wasn&#39;t installed.</div>')[0];
+                popup_19cc7125100649288e984c3c8669ea98.setContent(html_81113af6408842eea739249a0704fe72);
+            
+
+            marker_0a3524a9b46149d1b6acc568ac1bb812.bindPopup(popup_19cc7125100649288e984c3c8669ea98);
+
+            
+        
+    
+
+            var marker_440d841be60c40c192f03f7a75de2178 = L.marker(
+                [48.6538618,-97.1190985],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_0cba7dd49d574cc8aa3007b1590aedae = L.popup({maxWidth: '300'});
+
+            
+                var html_c70e1afe29c34f2f8d416a6ebd7083b8 = $('<div id="html_c70e1afe29c34f2f8d416a6ebd7083b8" style="width: 100.0%; height: 100.0%;">The theme park was closed for five days.</div>')[0];
+                popup_0cba7dd49d574cc8aa3007b1590aedae.setContent(html_c70e1afe29c34f2f8d416a6ebd7083b8);
+            
+
+            marker_440d841be60c40c192f03f7a75de2178.bindPopup(popup_0cba7dd49d574cc8aa3007b1590aedae);
+
+            
+        
+    
+
+            var marker_afbcb681322641688c84dbe72382c0d1 = L.marker(
+                [53.5579705,-2.1839474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_55b71ea203714356af6ac88a453c30f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b07ae32edefb49c19cda85250a66c49f = $('<div id="html_b07ae32edefb49c19cda85250a66c49f" style="width: 100.0%; height: 100.0%;">The 9ft long space is just wide enough for a single bed.</div>')[0];
+                popup_55b71ea203714356af6ac88a453c30f3.setContent(html_b07ae32edefb49c19cda85250a66c49f);
+            
+
+            marker_afbcb681322641688c84dbe72382c0d1.bindPopup(popup_55b71ea203714356af6ac88a453c30f3);
+
+            
+        
+    
+
+            var marker_09ec2cd5e01b40768afc2a82fccd8168 = L.marker(
+                [61.613211,105.436715],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ab9668e673374b889a498ff3ae4e4f05 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdc058a9e76841efb2441f2f6eeec611 = $('<div id="html_bdc058a9e76841efb2441f2f6eeec611" style="width: 100.0%; height: 100.0%;">But it managed to thwart the hack.</div>')[0];
+                popup_ab9668e673374b889a498ff3ae4e4f05.setContent(html_bdc058a9e76841efb2441f2f6eeec611);
+            
+
+            marker_09ec2cd5e01b40768afc2a82fccd8168.bindPopup(popup_ab9668e673374b889a498ff3ae4e4f05);
+
+            
+        
+    
+
+            var marker_ec3041adfb0b43f084e4bb48c943d55c = L.marker(
+                [56.5503352,-4.1325398],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_fffffcb4d8944561a0e7cadd9094da54 = L.popup({maxWidth: '300'});
+
+            
+                var html_07d19d657f22434394c4e42ae411ea8f = $('<div id="html_07d19d657f22434394c4e42ae411ea8f" style="width: 100.0%; height: 100.0%;">The General Election is drawing nearer</div>')[0];
+                popup_fffffcb4d8944561a0e7cadd9094da54.setContent(html_07d19d657f22434394c4e42ae411ea8f);
+            
+
+            marker_ec3041adfb0b43f084e4bb48c943d55c.bindPopup(popup_fffffcb4d8944561a0e7cadd9094da54);
+
+            
+        
+    
+
+            var marker_cfa030a0cd984569b89a2e182c245709 = L.marker(
+                [39.1754252,-84.4584476],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f24166ad7bbc45a9bce85df387fb8b23 = L.popup({maxWidth: '300'});
+
+            
+                var html_00d2f6e0f4f84c5a881aa952f7fb08bd = $('<div id="html_00d2f6e0f4f84c5a881aa952f7fb08bd" style="width: 100.0%; height: 100.0%;">The school allegedly told the boy&#39;s mum he had &#39;fainted&#39;.</div>')[0];
+                popup_f24166ad7bbc45a9bce85df387fb8b23.setContent(html_00d2f6e0f4f84c5a881aa952f7fb08bd);
+            
+
+            marker_cfa030a0cd984569b89a2e182c245709.bindPopup(popup_f24166ad7bbc45a9bce85df387fb8b23);
+
+            
+        
+    
+
+            var marker_f940e585ef324483bc22b9a5ce99ee3f = L.marker(
+                [59.4006815,18.1596248],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_23712c9ca2234792b3bb37c2d67f8f84 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbea66a376454458973686b842d27403 = $('<div id="html_fbea66a376454458973686b842d27403" style="width: 100.0%; height: 100.0%;">This year&#39;s Eurovision theme is &#39;Celebrate Diversity&#39;.</div>')[0];
+                popup_23712c9ca2234792b3bb37c2d67f8f84.setContent(html_fbea66a376454458973686b842d27403);
+            
+
+            marker_f940e585ef324483bc22b9a5ce99ee3f.bindPopup(popup_23712c9ca2234792b3bb37c2d67f8f84);
+
+            
+        
+    
+
+            var marker_de0675cc136240fe82173ee4ec5b48d8 = L.marker(
+                [51.6063109,-0.0141673],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4082953e107941e586c3ee6e8156e551 = L.popup({maxWidth: '300'});
+
+            
+                var html_1fa90475a84b4189ace2ef5a1b289953 = $('<div id="html_1fa90475a84b4189ace2ef5a1b289953" style="width: 100.0%; height: 100.0%;">Andrei Burnaz&#39;s heartache was on display as he paid a tearful farewell to Andreea Cristea, who died two weeks after the attack</div>')[0];
+                popup_4082953e107941e586c3ee6e8156e551.setContent(html_1fa90475a84b4189ace2ef5a1b289953);
+            
+
+            marker_de0675cc136240fe82173ee4ec5b48d8.bindPopup(popup_4082953e107941e586c3ee6e8156e551);
+
+            
+        
+    
+
+            var marker_ab1caef6965d4e2daf313d53cbebd857 = L.marker(
+                [51.603164,-3.48828],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d18a68757de3465aa0318bf58aa9e8ae = L.popup({maxWidth: '300'});
+
+            
+                var html_4790a01b42fe496da394a48994371551 = $('<div id="html_4790a01b42fe496da394a48994371551" style="width: 100.0%; height: 100.0%;">Emma Dowling turned to food for comfort as she suffered with postnatal depression after the birth of her first child</div>')[0];
+                popup_d18a68757de3465aa0318bf58aa9e8ae.setContent(html_4790a01b42fe496da394a48994371551);
+            
+
+            marker_ab1caef6965d4e2daf313d53cbebd857.bindPopup(popup_d18a68757de3465aa0318bf58aa9e8ae);
+
+            
+        
+    
+
+            var marker_2940d8f6251d4ab4af153eb80a5e28ff = L.marker(
+                [48.2167833,11.6991866],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_090fe78281be4c2b84557de16bf3b297 = L.popup({maxWidth: '300'});
+
+            
+                var html_63ca7641791840f9b7f87a10cc118410 = $('<div id="html_63ca7641791840f9b7f87a10cc118410" style="width: 100.0%; height: 100.0%;">Sick yobs said to have taunted 78-year-old former footballer about the 1958 Munich air disaster, in which eight Man Utd players died</div>')[0];
+                popup_090fe78281be4c2b84557de16bf3b297.setContent(html_63ca7641791840f9b7f87a10cc118410);
+            
+
+            marker_2940d8f6251d4ab4af153eb80a5e28ff.bindPopup(popup_090fe78281be4c2b84557de16bf3b297);
+
+            
+        
+    
+
+            var marker_5876150d4d9741c6b970c7f31f015160 = L.marker(
+                [37.5345646,-122.0562475],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_7c133fd99fa345c698b61268ed0dcb64 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9c5271df08f498399bfbe64a5cc7dbd = $('<div id="html_f9c5271df08f498399bfbe64a5cc7dbd" style="width: 100.0%; height: 100.0%;">Ruby Tandoh accused the One Direction Star&#39;s new flame of only being a spokesperson for body positivity when it suits her</div>')[0];
+                popup_7c133fd99fa345c698b61268ed0dcb64.setContent(html_f9c5271df08f498399bfbe64a5cc7dbd);
+            
+
+            marker_5876150d4d9741c6b970c7f31f015160.bindPopup(popup_7c133fd99fa345c698b61268ed0dcb64);
+
+            
+        
+    
+
+            var marker_a5223b58b0294b8a8c821abcbf92a871 = L.marker(
+                [33.3049127,-98.6848547],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_7c14d2f4ffda4622aa1299ed65e3e957 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e0bd6ac49a14cc48d49878227150b87 = $('<div id="html_1e0bd6ac49a14cc48d49878227150b87" style="width: 100.0%; height: 100.0%;">Chloe Farrell&#39;s grief-stricken relatives described her as a &#34;fun&#34; and &#34;outgoing&#34; 22-year-old who will be &#34;greatly missed&#34;</div>')[0];
+                popup_7c14d2f4ffda4622aa1299ed65e3e957.setContent(html_1e0bd6ac49a14cc48d49878227150b87);
+            
+
+            marker_a5223b58b0294b8a8c821abcbf92a871.bindPopup(popup_7c14d2f4ffda4622aa1299ed65e3e957);
+
+            
+        
+    
+
+            var marker_ce233ef561604686b9554a35534aed89 = L.marker(
+                [40.0721197,-104.7096283],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_15494a8de63948e68182007cfd69e059 = L.popup({maxWidth: '300'});
+
+            
+                var html_e19fda36d3724eb18f07a5cc0e0510b6 = $('<div id="html_e19fda36d3724eb18f07a5cc0e0510b6" style="width: 100.0%; height: 100.0%;">Diagnosed with terminal cancer, Annabel Nnochiri made a tough decision about how she wanted to live the rest of her life</div>')[0];
+                popup_15494a8de63948e68182007cfd69e059.setContent(html_e19fda36d3724eb18f07a5cc0e0510b6);
+            
+
+            marker_ce233ef561604686b9554a35534aed89.bindPopup(popup_15494a8de63948e68182007cfd69e059);
+
+            
+        
+    
+
+            var marker_69c1f4d0d1f74090ae58d618bc3f2f22 = L.marker(
+                [53.6568978,-2.2175474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8f0a713703f14037ac035e1001c57383 = L.popup({maxWidth: '300'});
+
+            
+                var html_a2f10c2e65564cf89f4a30eeb80540fd = $('<div id="html_a2f10c2e65564cf89f4a30eeb80540fd" style="width: 100.0%; height: 100.0%;">A lawyer has warned mums and dads they could &#39;unknowingly end up embroiled in a child abduction case, be refused past check-in, or turned away at border control&#39;</div>')[0];
+                popup_8f0a713703f14037ac035e1001c57383.setContent(html_a2f10c2e65564cf89f4a30eeb80540fd);
+            
+
+            marker_69c1f4d0d1f74090ae58d618bc3f2f22.bindPopup(popup_8f0a713703f14037ac035e1001c57383);
+
+            
+        
+    
+
+            var marker_7c21e17eab214e28952a1bdf9ba0c615 = L.marker(
+                [40.7964943,-89.5218414],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b3c6d8bd6c4c444d9f01aac5af171bdd = L.popup({maxWidth: '300'});
+
+            
+                var html_219f2d8439a544918df598c9336a34c8 = $('<div id="html_219f2d8439a544918df598c9336a34c8" style="width: 100.0%; height: 100.0%;">The five-year-old led the teams out ahead of Saturday&#39;s game at the Stadium of Light</div>')[0];
+                popup_b3c6d8bd6c4c444d9f01aac5af171bdd.setContent(html_219f2d8439a544918df598c9336a34c8);
+            
+
+            marker_7c21e17eab214e28952a1bdf9ba0c615.bindPopup(popup_b3c6d8bd6c4c444d9f01aac5af171bdd);
+
+            
+        
+    
+
+            var marker_9832193c85bd4560ac81e9569783cc4a = L.marker(
+                [37.4044547,-93.64287],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_605c2ed010c443dfb87538ada2fb83c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_f24b8669dca247df9298d5070cd67935 = $('<div id="html_f24b8669dca247df9298d5070cd67935" style="width: 100.0%; height: 100.0%;">The big Belgian kept splashing his pals with cold water until they busted their moves</div>')[0];
+                popup_605c2ed010c443dfb87538ada2fb83c8.setContent(html_f24b8669dca247df9298d5070cd67935);
+            
+
+            marker_9832193c85bd4560ac81e9569783cc4a.bindPopup(popup_605c2ed010c443dfb87538ada2fb83c8);
+
+            
+        
+    
+
+            var marker_eb0bd4f4dd6c4fdea652a1e26de6479b = L.marker(
+                [51.5851049,-0.0541203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_bb1607f1df9d4a62b2553101a15153c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_b911fbf1448341918966addf83462da6 = $('<div id="html_b911fbf1448341918966addf83462da6" style="width: 100.0%; height: 100.0%;">The letters, allegedly written by the late terrorist&#39;s son Hamza, now 28, are reportedly &#39;about vengeance&#39;</div>')[0];
+                popup_bb1607f1df9d4a62b2553101a15153c0.setContent(html_b911fbf1448341918966addf83462da6);
+            
+
+            marker_eb0bd4f4dd6c4fdea652a1e26de6479b.bindPopup(popup_bb1607f1df9d4a62b2553101a15153c0);
+
+            
+        
+    
+
+            var marker_d0540ddb5f664636ad32c9c5eff9dea6 = L.marker(
+                [38.8404365,-76.8465729],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_490e24e199f549e8ac6bfed4f0bd7b96 = L.popup({maxWidth: '300'});
+
+            
+                var html_d9472452ad1a4905aea4fdcc52cbd901 = $('<div id="html_d9472452ad1a4905aea4fdcc52cbd901" style="width: 100.0%; height: 100.0%;">Has Trump waived executive privilege by asking Comey about being investigated?</div>')[0];
+                popup_490e24e199f549e8ac6bfed4f0bd7b96.setContent(html_d9472452ad1a4905aea4fdcc52cbd901);
+            
+
+            marker_d0540ddb5f664636ad32c9c5eff9dea6.bindPopup(popup_490e24e199f549e8ac6bfed4f0bd7b96);
+
+            
+        
+    
+
+            var marker_7da8eb3f8980426b9044807a4bb8f1d9 = L.marker(
+                [38.8564455,-76.8442459],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_426499068a5a4e79bf9324cd7184040b = L.popup({maxWidth: '300'});
+
+            
+                var html_ae57759732db477298493b990c8cc631 = $('<div id="html_ae57759732db477298493b990c8cc631" style="width: 100.0%; height: 100.0%;">“The only parallel is Watergate, and this is much more serious,” said Allan Lichtman, who has predicted every presidential win going back to 1984.</div>')[0];
+                popup_426499068a5a4e79bf9324cd7184040b.setContent(html_ae57759732db477298493b990c8cc631);
+            
+
+            marker_7da8eb3f8980426b9044807a4bb8f1d9.bindPopup(popup_426499068a5a4e79bf9324cd7184040b);
+
+            
+        
+    
+
+            var marker_a1f3197a09584b8c893fbf875bbded70 = L.marker(
+                [-9.118893,-74.928349],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5cfe3cf7f8df46979e137858cb5641c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_4728ae8bcd4348bf91b230647b76ecc3 = $('<div id="html_4728ae8bcd4348bf91b230647b76ecc3" style="width: 100.0%; height: 100.0%;">The International Baccalaureate (IB) develops and sustains a worldwide community of students, educators and schools, with a shared mission to offer the best possible international education combined</div>')[0];
+                popup_5cfe3cf7f8df46979e137858cb5641c3.setContent(html_4728ae8bcd4348bf91b230647b76ecc3);
+            
+
+            marker_a1f3197a09584b8c893fbf875bbded70.bindPopup(popup_5cfe3cf7f8df46979e137858cb5641c3);
+
+            
+        
+    
+
+            var marker_3a8668c475134d0ead6a694bd42d722d = L.marker(
+                [37.148765,-95.624118],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ade79369c5e84bc0a7be3ddc320fe58c = L.popup({maxWidth: '300'});
+
+            
+                var html_75646da05ae4442fb5c6185d6188ebd3 = $('<div id="html_75646da05ae4442fb5c6185d6188ebd3" style="width: 100.0%; height: 100.0%;">Abby Grace, age 9, delivered &#34;a dozen cookies fresh from the oven&#34; to his house, as her mother told reporters.</div>')[0];
+                popup_ade79369c5e84bc0a7be3ddc320fe58c.setContent(html_75646da05ae4442fb5c6185d6188ebd3);
+            
+
+            marker_3a8668c475134d0ead6a694bd42d722d.bindPopup(popup_ade79369c5e84bc0a7be3ddc320fe58c);
+
+            
+        
+    
+
+            var marker_b4eea862ef1d4bfc883553e95b0e864e = L.marker(
+                [24.7681737,46.7913417],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_864943987ee74279be83cf6400e93c5c = L.popup({maxWidth: '300'});
+
+            
+                var html_a435e1d4644940abbb9f20ddb20efce2 = $('<div id="html_a435e1d4644940abbb9f20ddb20efce2" style="width: 100.0%; height: 100.0%;">The arms package the U,S. is selling could surpass more than $300 billion over a decade to help Saudi Arabia boost its defensive capabilities.</div>')[0];
+                popup_864943987ee74279be83cf6400e93c5c.setContent(html_a435e1d4644940abbb9f20ddb20efce2);
+            
+
+            marker_b4eea862ef1d4bfc883553e95b0e864e.bindPopup(popup_864943987ee74279be83cf6400e93c5c);
+
+            
+        
+    
+
+            var marker_8f2c8756cc4b47d785f91d1292d05460 = L.marker(
+                [55.829325,37.696794],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_65741d2493ee4d0fb39fa00aa1a56557 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7493096afe94e68879e994ef2e6e9a3 = $('<div id="html_d7493096afe94e68879e994ef2e6e9a3" style="width: 100.0%; height: 100.0%;">President Trump suggested  he taped FBI Director Comey. We separate the paranoia from the facts.</div>')[0];
+                popup_65741d2493ee4d0fb39fa00aa1a56557.setContent(html_d7493096afe94e68879e994ef2e6e9a3);
+            
+
+            marker_8f2c8756cc4b47d785f91d1292d05460.bindPopup(popup_65741d2493ee4d0fb39fa00aa1a56557);
+
+            
+        
+    
+
+            var marker_609a3c06ce2746e199a2d49dc236583f = L.marker(
+                [43.7389263,-73.9305685],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_db35f7b4c49247808146985afa5597b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a5b64a58197418b9df590c02cca0fda = $('<div id="html_0a5b64a58197418b9df590c02cca0fda" style="width: 100.0%; height: 100.0%;">&#39;The Wizard of Lies&#39; is scrupulous about just who were the most sinned against of Madoff’s victims.</div>')[0];
+                popup_db35f7b4c49247808146985afa5597b2.setContent(html_0a5b64a58197418b9df590c02cca0fda);
+            
+
+            marker_609a3c06ce2746e199a2d49dc236583f.bindPopup(popup_db35f7b4c49247808146985afa5597b2);
+
+            
+        
+    
+
+            var marker_8ae1b5f0a8224402a9ccce6d8dc53a99 = L.marker(
+                [38.3568062,-85.6411627],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_041bf5a5da264454b5801280acb4d9f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_52461120d64f42289fee1cd912be1a8d = $('<div id="html_52461120d64f42289fee1cd912be1a8d" style="width: 100.0%; height: 100.0%;">It is an indisputable fact that to lock up even more of our nation’s citizenry for even greater amounts of time won’t make us safer, but it will directly devastate children, families, and communities.</div>')[0];
+                popup_041bf5a5da264454b5801280acb4d9f6.setContent(html_52461120d64f42289fee1cd912be1a8d);
+            
+
+            marker_8ae1b5f0a8224402a9ccce6d8dc53a99.bindPopup(popup_041bf5a5da264454b5801280acb4d9f6);
+
+            
+        
+    
+
+            var marker_9d3804bdeda24f7b8fcc1bcf48bcb79b = L.marker(
+                [39.9948439,116.4816983],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_413d1763545e4cd98c0c035e07b9ad9a = L.popup({maxWidth: '300'});
+
+            
+                var html_4f13da1202eb4386821a10a4ed36f23c = $('<div id="html_4f13da1202eb4386821a10a4ed36f23c" style="width: 100.0%; height: 100.0%;">The Kremlin continues to target former Obama officials with an intelligence-gathering effort, according to a new report.</div>')[0];
+                popup_413d1763545e4cd98c0c035e07b9ad9a.setContent(html_4f13da1202eb4386821a10a4ed36f23c);
+            
+
+            marker_9d3804bdeda24f7b8fcc1bcf48bcb79b.bindPopup(popup_413d1763545e4cd98c0c035e07b9ad9a);
+
+            
+        
+    
+
+            var marker_778da4926fab487793c08edab72f9067 = L.marker(
+                [37.157976,-95.603668],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_91415cc13cb045e0a9de59f4c2a85091 = L.popup({maxWidth: '300'});
+
+            
+                var html_71eadf60747d42589e101f28fc125a77 = $('<div id="html_71eadf60747d42589e101f28fc125a77" style="width: 100.0%; height: 100.0%;">The rule of law has been compromised to some extent. Let’s look around the world to see where that leaves us.</div>')[0];
+                popup_91415cc13cb045e0a9de59f4c2a85091.setContent(html_71eadf60747d42589e101f28fc125a77);
+            
+
+            marker_778da4926fab487793c08edab72f9067.bindPopup(popup_91415cc13cb045e0a9de59f4c2a85091);
+
+            
+        
+    
+
+            var marker_0eed958dcdc845f29c8de18445e13438 = L.marker(
+                [52.4123227,-1.1047077],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f5b5711132a1414ba76da8d9f1b168b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_87eee44aa8f24df88437e290272d85a2 = $('<div id="html_87eee44aa8f24df88437e290272d85a2" style="width: 100.0%; height: 100.0%;">It’s tough to upgrade an entire computer network at once.</div>')[0];
+                popup_f5b5711132a1414ba76da8d9f1b168b4.setContent(html_87eee44aa8f24df88437e290272d85a2);
+            
+
+            marker_0eed958dcdc845f29c8de18445e13438.bindPopup(popup_f5b5711132a1414ba76da8d9f1b168b4);
+
+            
+        
+    
+
+            var marker_475d8f088c26484fb976b839b6a5c68b = L.marker(
+                [47.8238231,-120.6408456],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ef9f903be02844ddb9ee06a1500d1263 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9f9d11d0ebe40c6b112fcc7d34962ae = $('<div id="html_e9f9d11d0ebe40c6b112fcc7d34962ae" style="width: 100.0%; height: 100.0%;">The president gives every indication that he literally does not understand the concepts of popular sovereignty and rule of law.</div>')[0];
+                popup_ef9f903be02844ddb9ee06a1500d1263.setContent(html_e9f9d11d0ebe40c6b112fcc7d34962ae);
+            
+
+            marker_475d8f088c26484fb976b839b6a5c68b.bindPopup(popup_ef9f903be02844ddb9ee06a1500d1263);
+
+            
+        
+    
+
+            var marker_ea3e12b26f634d23942990709babf2ff = L.marker(
+                [38.8471445,-76.8186039],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9b4a2e28cf814691b7c1a119081d7e66 = L.popup({maxWidth: '300'});
+
+            
+                var html_f367e45a86e047b0b03e5cf94a4e481c = $('<div id="html_f367e45a86e047b0b03e5cf94a4e481c" style="width: 100.0%; height: 100.0%;">If this is swept under the rug, we take one giant step toward the authoritarianism Trump has always threatened.</div>')[0];
+                popup_9b4a2e28cf814691b7c1a119081d7e66.setContent(html_f367e45a86e047b0b03e5cf94a4e481c);
+            
+
+            marker_ea3e12b26f634d23942990709babf2ff.bindPopup(popup_9b4a2e28cf814691b7c1a119081d7e66);
+
+            
+        
+    
+
+            var marker_593a77270afa418a879363290cf05ce8 = L.marker(
+                [29.330188,-97.6512709],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6c94f780ac234a19b0fd5fd35cd39155 = L.popup({maxWidth: '300'});
+
+            
+                var html_da561c43d2134da790d577a76f38eff6 = $('<div id="html_da561c43d2134da790d577a76f38eff6" style="width: 100.0%; height: 100.0%;">Trump would “have trouble surreptitiously recording somebody, you know, starting the machine … Nixon would’ve had the same problem.”</div>')[0];
+                popup_6c94f780ac234a19b0fd5fd35cd39155.setContent(html_da561c43d2134da790d577a76f38eff6);
+            
+
+            marker_593a77270afa418a879363290cf05ce8.bindPopup(popup_6c94f780ac234a19b0fd5fd35cd39155);
+
+            
+        
+    
+
+            var marker_812330bb91024306b731c51b247aa074 = L.marker(
+                [29.8590933,-95.7626986],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_621cda774aa44af1bab2db6937a0fe66 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b837deb145e4eca9eb3e7ee7f310790 = $('<div id="html_7b837deb145e4eca9eb3e7ee7f310790" style="width: 100.0%; height: 100.0%;">Katy Perry roasts herself.</div>')[0];
+                popup_621cda774aa44af1bab2db6937a0fe66.setContent(html_7b837deb145e4eca9eb3e7ee7f310790);
+            
+
+            marker_812330bb91024306b731c51b247aa074.bindPopup(popup_621cda774aa44af1bab2db6937a0fe66);
+
+            
+        
+    
+
+            var marker_9d44170148fd464bbd30e57600de6b2b = L.marker(
+                [41.9443625,-92.977978],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+
+            var marker_c8e3081099cd48ddbfcc74e4c486be83 = L.marker(
+                [47.8059741,-120.6350826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+
+            var marker_b6b92887b7d7493a8bfe33bcd386769b = L.marker(
+                [52.279971,0.229377],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b25fa85bb94d4343ab143cc6fe9f54a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f760a4c5f0f04cfbac329b1d79b017a6 = $('<div id="html_f760a4c5f0f04cfbac329b1d79b017a6" style="width: 100.0%; height: 100.0%;">Until now, art historians dismissed some doodles in da Vinci’s notebooks as “irrelevant.”</div>')[0];
+                popup_b25fa85bb94d4343ab143cc6fe9f54a9.setContent(html_f760a4c5f0f04cfbac329b1d79b017a6);
+            
+
+            marker_b6b92887b7d7493a8bfe33bcd386769b.bindPopup(popup_b25fa85bb94d4343ab143cc6fe9f54a9);
+
+            
+        
+    
+
+            var marker_e40a348c5c20470fa007d84226fc2c62 = L.marker(
+                [35.954893,104.272998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e40ca2a9fc2c4307b1994f8c4d354cf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1cd88544bce43bfa8d1b35cb68cba51 = $('<div id="html_a1cd88544bce43bfa8d1b35cb68cba51" style="width: 100.0%; height: 100.0%;">A global cyber attack forced a European carmaker to halt some production lines, hit Russian computers with more than half of suspected infections, struck schools in China and hospitals in Indonesia, though it appeared to be dying down on Saturday.</div>')[0];
+                popup_e40ca2a9fc2c4307b1994f8c4d354cf3.setContent(html_a1cd88544bce43bfa8d1b35cb68cba51);
+            
+
+            marker_e40a348c5c20470fa007d84226fc2c62.bindPopup(popup_e40ca2a9fc2c4307b1994f8c4d354cf3);
+
+            
+        
+    
+
+            var marker_d439f730e44343118f928c1f28f330e9 = L.marker(
+                [61.591301,105.417365],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d2dbccf353c34a9ca382ae60f3915677 = L.popup({maxWidth: '300'});
+
+            
+                var html_37dfd8288f114a25a0a1d36999088cb7 = $('<div id="html_37dfd8288f114a25a0a1d36999088cb7" style="width: 100.0%; height: 100.0%;">President Donald Trump said on Saturday he will move quickly to nominate a new FBI director, after he sparked a political firestorm by firing the man investigating possible collusion between Russia and the Trump presidential campaign.</div>')[0];
+                popup_d2dbccf353c34a9ca382ae60f3915677.setContent(html_37dfd8288f114a25a0a1d36999088cb7);
+            
+
+            marker_d439f730e44343118f928c1f28f330e9.bindPopup(popup_d2dbccf353c34a9ca382ae60f3915677);
+
+            
+        
+    
+
+            var marker_59a1f0d5ac5f4ffba9390eb096996f0f = L.marker(
+                [39.1100173,125.8145121],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b833ea5e2d8e4faa819c4db72ed78812 = L.popup({maxWidth: '300'});
+
+            
+                var html_7eecf9333cec44e6bc3b32a5e08d3f6d = $('<div id="html_7eecf9333cec44e6bc3b32a5e08d3f6d" style="width: 100.0%; height: 100.0%;">A senior North Korean diplomat who handles relations with the United States said on Saturday that Pyongyang would have dialogue with the U.S. administration if conditions were right, South Korea&#39;s Yonhap news agency reported.</div>')[0];
+                popup_b833ea5e2d8e4faa819c4db72ed78812.setContent(html_7eecf9333cec44e6bc3b32a5e08d3f6d);
+            
+
+            marker_59a1f0d5ac5f4ffba9390eb096996f0f.bindPopup(popup_b833ea5e2d8e4faa819c4db72ed78812);
+
+            
+        
+    
+
+            var marker_670398be7f4b4b99a0896e6d648f69b5 = L.marker(
+                [47.8508851,-120.6686966],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_cd0c8da4b7864c44bbf6bd52ff54873e = L.popup({maxWidth: '300'});
+
+            
+                var html_d038ecb6f272401ca5f905278578c082 = $('<div id="html_d038ecb6f272401ca5f905278578c082" style="width: 100.0%; height: 100.0%;">The United States said on Saturday the world&#39;s other rich economies were getting used to the policy plans of President Donald Trump, but Europe and Japan showed they remained worried about Washington&#39;s shift.</div>')[0];
+                popup_cd0c8da4b7864c44bbf6bd52ff54873e.setContent(html_d038ecb6f272401ca5f905278578c082);
+            
+
+            marker_670398be7f4b4b99a0896e6d648f69b5.bindPopup(popup_cd0c8da4b7864c44bbf6bd52ff54873e);
+
+            
+        
+    
+
+            var marker_8b2966d3790a423fb0fa76e4a08c2b18 = L.marker(
+                [55.841833,37.713735],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_29b45db6b82b4951985bfd4e316e7eb9 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6a9bc4674164d3191f76fa3ba43bb4f = $('<div id="html_c6a9bc4674164d3191f76fa3ba43bb4f" style="width: 100.0%; height: 100.0%;">A Russian-owned group of companies has agreed to pay nearly $6 million to settle U.S. civil allegations that the firms laundered proceeds of a $230 million tax fraud, ending a politically charged case days before it was set to go to trial.</div>')[0];
+                popup_29b45db6b82b4951985bfd4e316e7eb9.setContent(html_c6a9bc4674164d3191f76fa3ba43bb4f);
+            
+
+            marker_8b2966d3790a423fb0fa76e4a08c2b18.bindPopup(popup_29b45db6b82b4951985bfd4e316e7eb9);
+
+            
+        
+    
+
+            var marker_4ffb976a2c7149d59420360019b892cf = L.marker(
+                [64.965593,-147.7031061],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e73c5e9a92574bbd97b0e38f59ea9adb = L.popup({maxWidth: '300'});
+
+            
+                var html_ae1e275a79564d97912400bb77957234 = $('<div id="html_ae1e275a79564d97912400bb77957234" style="width: 100.0%; height: 100.0%;">Pope Francis gave the Catholic Church two of its youngest saints on Saturday, canonizing shepherd siblings believed to have seen the Madonna 100 years ago in a Portuguese town that is now a major pilgrimage site.</div>')[0];
+                popup_e73c5e9a92574bbd97b0e38f59ea9adb.setContent(html_ae1e275a79564d97912400bb77957234);
+            
+
+            marker_4ffb976a2c7149d59420360019b892cf.bindPopup(popup_e73c5e9a92574bbd97b0e38f59ea9adb);
+
+            
+        
+    
+
+            var marker_5733b4d65bab4088a6474410396f9274 = L.marker(
+                [44.5172401,-73.1102344],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_1501acf486324678b1c17f65da465d68 = L.popup({maxWidth: '300'});
+
+            
+                var html_146196451fc0429eb2c54d36dc2f83b7 = $('<div id="html_146196451fc0429eb2c54d36dc2f83b7" style="width: 100.0%; height: 100.0%;">China welcomes all countries to a forum this weekend on China&#39;s new Silk Road plan, the foreign ministry said on Saturday, after the United States warned China that North Korea&#39;s attendance could affect other countries&#39; participation.</div>')[0];
+                popup_1501acf486324678b1c17f65da465d68.setContent(html_146196451fc0429eb2c54d36dc2f83b7);
+            
+
+            marker_5733b4d65bab4088a6474410396f9274.bindPopup(popup_1501acf486324678b1c17f65da465d68);
+
+            
+        
+    
+
+            var marker_83b82336429b40d588c770fb9ea59754 = L.marker(
+                [5.4556397,-3.9211713],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_30338e615dd94c3d86523b2a95263577 = L.popup({maxWidth: '300'});
+
+            
+                var html_af4ae34e20e84445ac77ba5822991a04 = $('<div id="html_af4ae34e20e84445ac77ba5822991a04" style="width: 100.0%; height: 100.0%;">Mutinous soldiers in Ivory Coast shot three people on Saturday and cut off access to the second largest city, Bouake, as a revolt escalated over demands for bonus payments.</div>')[0];
+                popup_30338e615dd94c3d86523b2a95263577.setContent(html_af4ae34e20e84445ac77ba5822991a04);
+            
+
+            marker_83b82336429b40d588c770fb9ea59754.bindPopup(popup_30338e615dd94c3d86523b2a95263577);
+
+            
+        
+    
+
+            var marker_a1ea468b7afb4566a9c162e7793c46de = L.marker(
+                [31.832371,35.304325],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_1afd26f42ae0475b9707fa847ab7f4e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_52e31941016642979aace3f2a7b136e4 = $('<div id="html_52e31941016642979aace3f2a7b136e4" style="width: 100.0%; height: 100.0%;">A Jordanian citizen stabbed and wounded an Israeli police officer who then shot him dead in Jerusalem&#39;s Old City on Saturday, Israeli police said, the latest in a string of street attacks.</div>')[0];
+                popup_1afd26f42ae0475b9707fa847ab7f4e6.setContent(html_52e31941016642979aace3f2a7b136e4);
+            
+
+            marker_a1ea468b7afb4566a9c162e7793c46de.bindPopup(popup_1afd26f42ae0475b9707fa847ab7f4e6);
+
+            
+        
+    
+
+            var marker_c9143f4a463e4412afa767c42ef9af26 = L.marker(
+                [41.934739,12.644727],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_482470ae371e414c91a28adb43feee80 = L.popup({maxWidth: '300'});
+
+            
+                var html_faec33fb802b47f7a0fbb250f7334427 = $('<div id="html_faec33fb802b47f7a0fbb250f7334427" style="width: 100.0%; height: 100.0%;">Italy and Portugal are the frontrunners going into the final of the Eurovision Song Contest in Kiev on Saturday night, an annual song and dance fest whose global audience topped 200 million people last year.</div>')[0];
+                popup_482470ae371e414c91a28adb43feee80.setContent(html_faec33fb802b47f7a0fbb250f7334427);
+            
+
+            marker_c9143f4a463e4412afa767c42ef9af26.bindPopup(popup_482470ae371e414c91a28adb43feee80);
+
+            
+        
+    
+
+            var marker_4554334ceca44f36b8db519afeab71f3 = L.marker(
+                [52.623204,0.177731],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4a0faf8bb45040c2a9c977f72af81c25 = L.popup({maxWidth: '300'});
+
+            
+                var html_4084ff2910894b259d4b03210787ab51 = $('<div id="html_4084ff2910894b259d4b03210787ab51" style="width: 100.0%; height: 100.0%;">Expert who stopped spread of attack by activating software’s ‘kill switch’ says criminals will ‘change the code and start again’</div>')[0];
+                popup_4a0faf8bb45040c2a9c977f72af81c25.setContent(html_4084ff2910894b259d4b03210787ab51);
+            
+
+            marker_4554334ceca44f36b8db519afeab71f3.bindPopup(popup_4a0faf8bb45040c2a9c977f72af81c25);
+
+            
+        
+    
+
+            var marker_18dafc2667b14ad4a8971ec842f3311e = L.marker(
+                [-37.7603416,145.0802016],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_26124ab97f6b47eca03091f13ba74320 = L.popup({maxWidth: '300'});
+
+            
+                var html_ceddc158b41d43eabd34d17919bbefdf = $('<div id="html_ceddc158b41d43eabd34d17919bbefdf" style="width: 100.0%; height: 100.0%;">Burger Project outlet in Melbourne dismisses staff member over insult, while Perry contacts customer to apologise</div>')[0];
+                popup_26124ab97f6b47eca03091f13ba74320.setContent(html_ceddc158b41d43eabd34d17919bbefdf);
+            
+
+            marker_18dafc2667b14ad4a8971ec842f3311e.bindPopup(popup_26124ab97f6b47eca03091f13ba74320);
+
+            
+        
+    
+
+            var marker_ec368b7c9bfa45efa63be046f46347dd = L.marker(
+                [47.8115451,-120.6430106],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_29954419287f44f2ba0437d3ae6732b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c3cd79d2ecb420095f542ff01ec8e89 = $('<div id="html_9c3cd79d2ecb420095f542ff01ec8e89" style="width: 100.0%; height: 100.0%;">Trump’s decision to fire James Comey stunned Washington, upset the bureau, and brought Russia back into focus. How much more can Republicans take?</div>')[0];
+                popup_29954419287f44f2ba0437d3ae6732b3.setContent(html_9c3cd79d2ecb420095f542ff01ec8e89);
+            
+
+            marker_ec368b7c9bfa45efa63be046f46347dd.bindPopup(popup_29954419287f44f2ba0437d3ae6732b3);
+
+            
+        
+    
+
+            var marker_1fb085423142499d9d4fc5601d7f3d70 = L.marker(
+                [-37.7583806,145.0688666],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ec469a0d67e14c87ba77c4f42284fabc = L.popup({maxWidth: '300'});
+
+            
+                var html_4c3e7b7f662d4bfea865c050704eeb7c = $('<div id="html_4c3e7b7f662d4bfea865c050704eeb7c" style="width: 100.0%; height: 100.0%;">Vatican’s financial chief, who has always denied wrongdoing, faces fresh allegations of abuse, relating to his time as archbishop of Melbourne</div>')[0];
+                popup_ec469a0d67e14c87ba77c4f42284fabc.setContent(html_4c3e7b7f662d4bfea865c050704eeb7c);
+            
+
+            marker_1fb085423142499d9d4fc5601d7f3d70.bindPopup(popup_ec469a0d67e14c87ba77c4f42284fabc);
+
+            
+        
+    
+
+            var marker_85932bba1e8744a59c1a955e9943084e = L.marker(
+                [40.3244289,-90.9434174],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_3ed660169120406eb107155c5df6005b = L.popup({maxWidth: '300'});
+
+            
+                var html_f6e5cd9f02464793b8b66de42065e69b = $('<div id="html_f6e5cd9f02464793b8b66de42065e69b" style="width: 100.0%; height: 100.0%;">Companies would be forced to disclose use of havens to shareholders in a bid to improve transparency</div>')[0];
+                popup_3ed660169120406eb107155c5df6005b.setContent(html_f6e5cd9f02464793b8b66de42065e69b);
+            
+
+            marker_85932bba1e8744a59c1a955e9943084e.bindPopup(popup_3ed660169120406eb107155c5df6005b);
+
+            
+        
+    
+
+            var marker_3eda7c7b915f4ccda888751454db5212 = L.marker(
+                [39.7166388,-105.0791886],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9cc7460657364a06ba5208aa159ffdc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d5c9cbd2a444ae8801bd6fd9ebafcb5 = $('<div id="html_3d5c9cbd2a444ae8801bd6fd9ebafcb5" style="width: 100.0%; height: 100.0%;">Michael Callaghan’s PRRT review found Australians not being unfairly compensated by tax, despite multiple experts calling for system overhaul</div>')[0];
+                popup_9cc7460657364a06ba5208aa159ffdc1.setContent(html_3d5c9cbd2a444ae8801bd6fd9ebafcb5);
+            
+
+            marker_3eda7c7b915f4ccda888751454db5212.bindPopup(popup_9cc7460657364a06ba5208aa159ffdc1);
+
+            
+        
+    
+
+            var marker_95beba03a3014ab09510ecbe27c9babb = L.marker(
+                [42.4524188,-70.9221444],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_a8451391de8b4d839ebb78a4f0d754fb = L.popup({maxWidth: '300'});
+
+            
+                var html_0d4ae799338046708255cb0735bc4355 = $('<div id="html_0d4ae799338046708255cb0735bc4355" style="width: 100.0%; height: 100.0%;">On Wednesday, after seven years, Chelsea Manning will walk out of military prison a free woman. Edward Snowden leads the tributes</div>')[0];
+                popup_a8451391de8b4d839ebb78a4f0d754fb.setContent(html_0d4ae799338046708255cb0735bc4355);
+            
+
+            marker_95beba03a3014ab09510ecbe27c9babb.bindPopup(popup_a8451391de8b4d839ebb78a4f0d754fb);
+
+            
+        
+    
+
+            var marker_bc172738115744039fba5fde82e58723 = L.marker(
+                [39.7197748,-105.1261826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_126ceb7bfc994f6a919d77a33eb50a37 = L.popup({maxWidth: '300'});
+
+            
+                var html_359e0bf8bca547848fd209c3a424cec6 = $('<div id="html_359e0bf8bca547848fd209c3a424cec6" style="width: 100.0%; height: 100.0%;">Turnbull and Morrison surprised the big end of town with their new levy, but they could face the same backlash that sank the mining tax</div>')[0];
+                popup_126ceb7bfc994f6a919d77a33eb50a37.setContent(html_359e0bf8bca547848fd209c3a424cec6);
+            
+
+            marker_bc172738115744039fba5fde82e58723.bindPopup(popup_126ceb7bfc994f6a919d77a33eb50a37);
+
+            
+        
+    
+
+            var marker_8667386fb7174482a730fb34adce8195 = L.marker(
+                [42.5768361,-71.32609],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f689222c3dca4da8ac9bc059a2aaf733 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6d904c9b7a347deb21955a106164d5e = $('<div id="html_b6d904c9b7a347deb21955a106164d5e" style="width: 100.0%; height: 100.0%;">Campaigners insist cooperation between Labour, Liberal Democrats and Greens is key to limiting landslide for Theresa May</div>')[0];
+                popup_f689222c3dca4da8ac9bc059a2aaf733.setContent(html_b6d904c9b7a347deb21955a106164d5e);
+            
+
+            marker_8667386fb7174482a730fb34adce8195.bindPopup(popup_f689222c3dca4da8ac9bc059a2aaf733);
+
+            
+        
+    
+
+            var marker_606194e0428145109874212baaecc1c0 = L.marker(
+                [53.5367623,-2.1792455],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_23ff698242944e9883922cc838c73a31 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f9dd2c660c34489b1b06acdff8f0d5e = $('<div id="html_6f9dd2c660c34489b1b06acdff8f0d5e" style="width: 100.0%; height: 100.0%;">Union points to plans to create more than 100 less well-paid junior academic posts while seeking 171 redundancies</div>')[0];
+                popup_23ff698242944e9883922cc838c73a31.setContent(html_6f9dd2c660c34489b1b06acdff8f0d5e);
+            
+
+            marker_606194e0428145109874212baaecc1c0.bindPopup(popup_23ff698242944e9883922cc838c73a31);
+
+            
+        
+    
+
+            var marker_9e5328d4b3c54044ad3bd75d44b15d80 = L.marker(
+                [47.8335291,-120.6625376],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_bb8bf0882ba4459c90523fb302828366 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d4930a8fccb48e484200fceb6c122e3 = $('<div id="html_7d4930a8fccb48e484200fceb6c122e3" style="width: 100.0%; height: 100.0%;">Trump’s decision to fire James Comey stunned Washington, upset the bureau, and brought Russia back into focus. How much more can Republicans take?</div>')[0];
+                popup_bb8bf0882ba4459c90523fb302828366.setContent(html_7d4930a8fccb48e484200fceb6c122e3);
+            
+
+            marker_9e5328d4b3c54044ad3bd75d44b15d80.bindPopup(popup_bb8bf0882ba4459c90523fb302828366);
+
+            
+        
+    
+
+            var marker_bac51c77a9914efa85c9be802e3314dd = L.marker(
+                [43.5745829,-88.3534464],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b5f2560cee1c4445b55665d706feb308 = L.popup({maxWidth: '300'});
+
+            
+                var html_227d5c6b9d4d49ad99e2e6f8a4929e13 = $('<div id="html_227d5c6b9d4d49ad99e2e6f8a4929e13" style="width: 100.0%; height: 100.0%;">During visit to Northern Ireland, PM says she wants ‘as seamless and frictionless a border as possible’ after Brexit</div>')[0];
+                popup_b5f2560cee1c4445b55665d706feb308.setContent(html_227d5c6b9d4d49ad99e2e6f8a4929e13);
+            
+
+            marker_bac51c77a9914efa85c9be802e3314dd.bindPopup(popup_b5f2560cee1c4445b55665d706feb308);
+
+            
+        
+    
+
+            var marker_29f7df28b7154021b3eface8d1d64986 = L.marker(
+                [42.4513478,-70.9606424],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9b166a8d40d5421f9d678405f738fdc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_faf94f87249542258f2314d95574097c = $('<div id="html_faf94f87249542258f2314d95574097c" style="width: 100.0%; height: 100.0%;">On Wednesday, after seven years, Chelsea Manning will walk out of military prison a free woman. Edward Snowden leads the tributes</div>')[0];
+                popup_9b166a8d40d5421f9d678405f738fdc7.setContent(html_faf94f87249542258f2314d95574097c);
+            
+
+            marker_29f7df28b7154021b3eface8d1d64986.bindPopup(popup_9b166a8d40d5421f9d678405f738fdc7);
+
+            
+        
+    
+
+            var marker_b1a36d21bdc14c18bc21cfeb5a7978e9 = L.marker(
+                [52.6000186,13.499897],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f378e45737464efba39235015ca49f28 = L.popup({maxWidth: '300'});
+
+            
+                var html_e16b8a7c304a42e5920e979d4c1cd4f7 = $('<div id="html_e16b8a7c304a42e5920e979d4c1cd4f7" style="width: 100.0%; height: 100.0%;">Emmanuel Macron, inaugurated as French president on Sunday, will fly to Berlin the next day</div>')[0];
+                popup_f378e45737464efba39235015ca49f28.setContent(html_e16b8a7c304a42e5920e979d4c1cd4f7);
+            
+
+            marker_b1a36d21bdc14c18bc21cfeb5a7978e9.bindPopup(popup_f378e45737464efba39235015ca49f28);
+
+            
+        
+    
+
+            var marker_78553b3729d64fb28a032009d22ba789 = L.marker(
+                [24.8023577,46.7271867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6ec1d6302bc744b79fc1a810a2e1b32d = L.popup({maxWidth: '300'});
+
+            
+                var html_93187affad7a4ac58155af732a9f691a = $('<div id="html_93187affad7a4ac58155af732a9f691a" style="width: 100.0%; height: 100.0%;">Senior White House official says it is close to completing a series of deals to boost Saudi defense capabilities, as Trump readies for trip next week</div>')[0];
+                popup_6ec1d6302bc744b79fc1a810a2e1b32d.setContent(html_93187affad7a4ac58155af732a9f691a);
+            
+
+            marker_78553b3729d64fb28a032009d22ba789.bindPopup(popup_6ec1d6302bc744b79fc1a810a2e1b32d);
+
+            
+        
+    
+
+            var marker_32022de6834245508c77f28c7c1d759b = L.marker(
+                [32.9478343,-109.6554339],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d39e5bdf9f3e4a449cb379380a868f0c = L.popup({maxWidth: '300'});
+
+            
+                var html_c8e65dba001a467cb93c9e447174a9c6 = $('<div id="html_c8e65dba001a467cb93c9e447174a9c6" style="width: 100.0%; height: 100.0%;">Manifesto also pushes for social media companies to do more to protect children using the internet</div>')[0];
+                popup_d39e5bdf9f3e4a449cb379380a868f0c.setContent(html_c8e65dba001a467cb93c9e447174a9c6);
+            
+
+            marker_32022de6834245508c77f28c7c1d759b.bindPopup(popup_d39e5bdf9f3e4a449cb379380a868f0c);
+
+            
+        
+    
+
+            var marker_7e4c4093e4824d459aec18b437e103db = L.marker(
+                [47.8399331,-120.6848446],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_857b27c1353942d7a4b98ffe14eada76 = L.popup({maxWidth: '300'});
+
+            
+                var html_cbea7e1d63904ec19e274d35915b41c6 = $('<div id="html_cbea7e1d63904ec19e274d35915b41c6" style="width: 100.0%; height: 100.0%;">Former first lady attacks president’s reversal of regulations to help improve school lunches: ‘Think about why someone is OK with your kids eating crap’</div>')[0];
+                popup_857b27c1353942d7a4b98ffe14eada76.setContent(html_cbea7e1d63904ec19e274d35915b41c6);
+            
+
+            marker_7e4c4093e4824d459aec18b437e103db.bindPopup(popup_857b27c1353942d7a4b98ffe14eada76);
+
+            
+        
+    
+
+            var marker_8152fb2504df4e6698dca8da5e05c606 = L.marker(
+                [56.5433142,-4.1404078],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_867176657b4c4b9587b97e90ac57b1f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_af45622567f747f884d84749c896dcb0 = $('<div id="html_af45622567f747f884d84749c896dcb0" style="width: 100.0%; height: 100.0%;">Metal detectorist who unearthed 10th-century artefacts including silver bracelets and a bird-shaped pin set to receive ex gratia payment</div>')[0];
+                popup_867176657b4c4b9587b97e90ac57b1f7.setContent(html_af45622567f747f884d84749c896dcb0);
+            
+
+            marker_8152fb2504df4e6698dca8da5e05c606.bindPopup(popup_867176657b4c4b9587b97e90ac57b1f7);
+
+            
+        
+    
+
+            var marker_f1ff8b20e8b64c1799068b4de0ee0d8b = L.marker(
+                [20.683381,79.033252],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_d33dfe201d714e3f9edccb844754df97 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee2b02b0db6f4e45968c8cc283a65d52 = $('<div id="html_ee2b02b0db6f4e45968c8cc283a65d52" style="width: 100.0%; height: 100.0%;">For the attack, hackers have used a flaw in Microsoft software to infiltrate unguarded systems.</div>')[0];
+                popup_d33dfe201d714e3f9edccb844754df97.setContent(html_ee2b02b0db6f4e45968c8cc283a65d52);
+            
+
+            marker_f1ff8b20e8b64c1799068b4de0ee0d8b.bindPopup(popup_d33dfe201d714e3f9edccb844754df97);
+
+            
+        
+    
+
+            var marker_df22cc0acfc84ceb9a4a4fb471bc0463 = L.marker(
+                [19.1431437,72.9514819],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9baf4644c48a43aeb52872e0029027c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e748690568743119e450d2cdaf49f61 = $('<div id="html_1e748690568743119e450d2cdaf49f61" style="width: 100.0%; height: 100.0%;">Jameas, community-run schools of Dawoodi Bohras, offer religious education that embraces and teaches secular world view</div>')[0];
+                popup_9baf4644c48a43aeb52872e0029027c9.setContent(html_1e748690568743119e450d2cdaf49f61);
+            
+
+            marker_df22cc0acfc84ceb9a4a4fb471bc0463.bindPopup(popup_9baf4644c48a43aeb52872e0029027c9);
+
+            
+        
+    
+
+            var marker_e4268073c9164173ab813b1dfb9aacd8 = L.marker(
+                [20.654049,79.07563],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b1d04a37a2474bb1b07a987d88ae8503 = L.popup({maxWidth: '300'});
+
+            
+                var html_81056ad0679643c7b13e839717897dd2 = $('<div id="html_81056ad0679643c7b13e839717897dd2" style="width: 100.0%; height: 100.0%;">Bengaluru tailor switched faiths in bid to leave India</div>')[0];
+                popup_b1d04a37a2474bb1b07a987d88ae8503.setContent(html_81056ad0679643c7b13e839717897dd2);
+            
+
+            marker_e4268073c9164173ab813b1dfb9aacd8.bindPopup(popup_b1d04a37a2474bb1b07a987d88ae8503);
+
+            
+        
+    
+
+            var marker_8172f3dd2c0a4922ac19806c3c4f8c1c = L.marker(
+                [13.1041952,76.1576689],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_12c542d062e04b0f81f905873732f696 = L.popup({maxWidth: '300'});
+
+            
+                var html_d61e799c811545f4bd25571aa68af0af = $('<div id="html_d61e799c811545f4bd25571aa68af0af" style="width: 100.0%; height: 100.0%;">Low sex ratio in States such as Rajasthan has resulted in the creation of a human trafficking network in Karnataka</div>')[0];
+                popup_12c542d062e04b0f81f905873732f696.setContent(html_d61e799c811545f4bd25571aa68af0af);
+            
+
+            marker_8172f3dd2c0a4922ac19806c3c4f8c1c.bindPopup(popup_12c542d062e04b0f81f905873732f696);
+
+            
+        
+    
+
+            var marker_0c9a601bd40444f8bb36dd7366ba1f37 = L.marker(
+                [12.3081951,79.1687887],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_daf77ea9895c480ab4c4c25af62016d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ef3d2f80e6643a896be72900687c24c = $('<div id="html_6ef3d2f80e6643a896be72900687c24c" style="width: 100.0%; height: 100.0%;">A diverse group of children create a deeply interconnected human and natural world at the Marudam Farm School in Tiruvannamalai</div>')[0];
+                popup_daf77ea9895c480ab4c4c25af62016d7.setContent(html_6ef3d2f80e6643a896be72900687c24c);
+            
+
+            marker_0c9a601bd40444f8bb36dd7366ba1f37.bindPopup(popup_daf77ea9895c480ab4c4c25af62016d7);
+
+            
+        
+    
+
+            var marker_9cf39745e70946eab150f2d41d28393a = L.marker(
+                [33.838544,76.6539214],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_bbd3e4eb60da4773ab198470a78cd15b = L.popup({maxWidth: '300'});
+
+            
+                var html_c1b4e34c336f4926812e5da798b818aa = $('<div id="html_c1b4e34c336f4926812e5da798b818aa" style="width: 100.0%; height: 100.0%;">Zakir Musa was heading the terror outfit in south Kashmir after Burhan Wani’s death</div>')[0];
+                popup_bbd3e4eb60da4773ab198470a78cd15b.setContent(html_c1b4e34c336f4926812e5da798b818aa);
+            
+
+            marker_9cf39745e70946eab150f2d41d28393a.bindPopup(popup_bbd3e4eb60da4773ab198470a78cd15b);
+
+            
+        
+    
+
+            var marker_2d17a67f7a5642738ada4167b3baf876 = L.marker(
+                [33.8060732,73.1469381],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_11bc35b2938a4affa931be973b1bd629 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe2fa905efe040fea62f61adead04c12 = $('<div id="html_fe2fa905efe040fea62f61adead04c12" style="width: 100.0%; height: 100.0%;">Pakistan’s Attorney General’s Office in the Supreme Court building in Islamabad is witnessing unusual late sittings these days. India’s application in the International Court of Justice against the ha</div>')[0];
+                popup_11bc35b2938a4affa931be973b1bd629.setContent(html_fe2fa905efe040fea62f61adead04c12);
+            
+
+            marker_2d17a67f7a5642738ada4167b3baf876.bindPopup(popup_11bc35b2938a4affa931be973b1bd629);
+
+            
+        
+    
+
+            var marker_f8df59ff1d0d49f19d4325fd96adb778 = L.marker(
+                [26.9123367,81.055043],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_3a1ef1eb68a0473fab148e4051f9636c = L.popup({maxWidth: '300'});
+
+            
+                var html_af9e6804f3964090a3ebc539197f41e9 = $('<div id="html_af9e6804f3964090a3ebc539197f41e9" style="width: 100.0%; height: 100.0%;">Want mosques to be excluded from the distance norm</div>')[0];
+                popup_3a1ef1eb68a0473fab148e4051f9636c.setContent(html_af9e6804f3964090a3ebc539197f41e9);
+            
+
+            marker_f8df59ff1d0d49f19d4325fd96adb778.bindPopup(popup_3a1ef1eb68a0473fab148e4051f9636c);
+
+            
+        
+    
+
+            var marker_60d4030a95964ca393b6251aeaf7e854 = L.marker(
+                [38.8474845,-76.7917999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5308bcb0f7b248df85466dcca4eaaef5 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b21e3a8235d41eaa4acd25fbbe5b0e0 = $('<div id="html_2b21e3a8235d41eaa4acd25fbbe5b0e0" style="width: 100.0%; height: 100.0%;">His firing of the FBI head is reminiscent of the 1973 ‘Saturday Night Massacre’</div>')[0];
+                popup_5308bcb0f7b248df85466dcca4eaaef5.setContent(html_2b21e3a8235d41eaa4acd25fbbe5b0e0);
+            
+
+            marker_60d4030a95964ca393b6251aeaf7e854.bindPopup(popup_5308bcb0f7b248df85466dcca4eaaef5);
+
+            
+        
+    
+
+            var marker_34f912f752734811bd3fa74e406c8fbc = L.marker(
+                [32.031726,35.293095],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4a2fb1fae72d487fadc899c6ab67723c = L.popup({maxWidth: '300'});
+
+            
+                var html_4d56fe28bfa848f7be582f58bf6cef10 = $('<div id="html_4d56fe28bfa848f7be582f58bf6cef10" style="width: 100.0%; height: 100.0%;">Reading the shift in the Hamas’s stance on Israel</div>')[0];
+                popup_4a2fb1fae72d487fadc899c6ab67723c.setContent(html_4d56fe28bfa848f7be582f58bf6cef10);
+            
+
+            marker_34f912f752734811bd3fa74e406c8fbc.bindPopup(popup_4a2fb1fae72d487fadc899c6ab67723c);
+
+            
+        
+    
+
+            var marker_a0214b73d31e44378de13ac0f4966d9d = L.marker(
+                [29.8013681,-95.3487044],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5a57f5128e2649b9ae6c6b7b001d1659 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe9e683bf2c142b0b1753811901d7552 = $('<div id="html_fe9e683bf2c142b0b1753811901d7552" style="width: 100.0%; height: 100.0%;">Party operatives say officeholders may start to bail when their own elections are on the line next year</div>')[0];
+                popup_5a57f5128e2649b9ae6c6b7b001d1659.setContent(html_fe9e683bf2c142b0b1753811901d7552);
+            
+
+            marker_a0214b73d31e44378de13ac0f4966d9d.bindPopup(popup_5a57f5128e2649b9ae6c6b7b001d1659);
+
+            
+        
+    
+
+            var marker_9ae983de6b924c659e0e9a69828d2769 = L.marker(
+                [37.4823794,-78.5887492],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5baeb53d2df24a9586add9ee7643c622 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b90aec6abbb4d5b8b8be19e7856b5b7 = $('<div id="html_9b90aec6abbb4d5b8b8be19e7856b5b7" style="width: 100.0%; height: 100.0%;">“I think the process is going to go quickly.”</div>')[0];
+                popup_5baeb53d2df24a9586add9ee7643c622.setContent(html_9b90aec6abbb4d5b8b8be19e7856b5b7);
+            
+
+            marker_9ae983de6b924c659e0e9a69828d2769.bindPopup(popup_5baeb53d2df24a9586add9ee7643c622);
+
+            
+        
+    
+
+            var marker_ad6a705b31bc476fab4b56c9734decbe = L.marker(
+                [54.296018,-4.47439],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_c73e5eb327204f8595ee61a45aa9aebd = L.popup({maxWidth: '300'});
+
+            
+                var html_19af0e380c80403e81e20420eff18272 = $('<div id="html_19af0e380c80403e81e20420eff18272" style="width: 100.0%; height: 100.0%;">&#34;If the health care is destroyed, do the rich get a tax cut? Yes or no?&#34;</div>')[0];
+                popup_c73e5eb327204f8595ee61a45aa9aebd.setContent(html_19af0e380c80403e81e20420eff18272);
+            
+
+            marker_ad6a705b31bc476fab4b56c9734decbe.bindPopup(popup_c73e5eb327204f8595ee61a45aa9aebd);
+
+            
+        
+    
+
+            var marker_be3e54382c9143e39d2c877b7e26c84f = L.marker(
+                [21.1194584,105.9151308],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_a276c56f34754825b7a7218bbccf1a90 = L.popup({maxWidth: '300'});
+
+            
+                var html_89cfc2b6b2e04a2580c0c2dcf5baa80e = $('<div id="html_89cfc2b6b2e04a2580c0c2dcf5baa80e" style="width: 100.0%; height: 100.0%;">Five decades after the war, they&#39;re coming together in the country that shaped their young lives.</div>')[0];
+                popup_a276c56f34754825b7a7218bbccf1a90.setContent(html_89cfc2b6b2e04a2580c0c2dcf5baa80e);
+            
+
+            marker_be3e54382c9143e39d2c877b7e26c84f.bindPopup(popup_a276c56f34754825b7a7218bbccf1a90);
+
+            
+        
+    
+
+            var marker_3f8591dde237412eb48d054ff9d72588 = L.marker(
+                [42.453385,-83.1907171],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_7a487481f36d417aa5e98c58153575ab = L.popup({maxWidth: '300'});
+
+            
+                var html_2a32d373c3834aea93543fd8f4f28640 = $('<div id="html_2a32d373c3834aea93543fd8f4f28640" style="width: 100.0%; height: 100.0%;">He also urged graduates not to become critics and spoke a little bit about football.</div>')[0];
+                popup_7a487481f36d417aa5e98c58153575ab.setContent(html_2a32d373c3834aea93543fd8f4f28640);
+            
+
+            marker_3f8591dde237412eb48d054ff9d72588.bindPopup(popup_7a487481f36d417aa5e98c58153575ab);
+
+            
+        
+    
+
+            var marker_f45857ce72134ff39ba3ffe17c4171de = L.marker(
+                [37.4991854,-78.5887092],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6816f449f48c4ef99f0d46021bf6ce4d = L.popup({maxWidth: '300'});
+
+            
+                var html_ca1a2755bf734ff29cd7c9c6988816cd = $('<div id="html_ca1a2755bf734ff29cd7c9c6988816cd" style="width: 100.0%; height: 100.0%;">The case is one of several digging into the president&#39;s motives for his executive order barring travel and refugees.</div>')[0];
+                popup_6816f449f48c4ef99f0d46021bf6ce4d.setContent(html_ca1a2755bf734ff29cd7c9c6988816cd);
+            
+
+            marker_f45857ce72134ff39ba3ffe17c4171de.bindPopup(popup_6816f449f48c4ef99f0d46021bf6ce4d);
+
+            
+        
+    
+
+            var marker_23390e4577ee4d7699ee2c2fb9ac292e = L.marker(
+                [39.5778043,-121.9093141],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e6acebf7c816425bbe05a965a2adb07b = L.popup({maxWidth: '300'});
+
+            
+                var html_58108669be7e40a191c178c15b9d4db8 = $('<div id="html_58108669be7e40a191c178c15b9d4db8" style="width: 100.0%; height: 100.0%;">&#34;We could unite our powers for good,&#34; Beck told O&#39;Reilly on air.</div>')[0];
+                popup_e6acebf7c816425bbe05a965a2adb07b.setContent(html_58108669be7e40a191c178c15b9d4db8);
+            
+
+            marker_23390e4577ee4d7699ee2c2fb9ac292e.bindPopup(popup_e6acebf7c816425bbe05a965a2adb07b);
+
+            
+        
+    
+
+            var marker_4b5c0dbdd5d04e1a942fcc331c378616 = L.marker(
+                [35.2718629,-109.243695],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_26e8307c33a74c15b528229424d6f35c = L.popup({maxWidth: '300'});
+
+            
+                var html_4717600da1864d938ff1e13ae1efc458 = $('<div id="html_4717600da1864d938ff1e13ae1efc458" style="width: 100.0%; height: 100.0%;">James B. Comey’s associates say he now believes his unwillingness to pledge personal loyalty led President Trump to fire him as the F.B.I. director.</div>')[0];
+                popup_26e8307c33a74c15b528229424d6f35c.setContent(html_4717600da1864d938ff1e13ae1efc458);
+            
+
+            marker_4b5c0dbdd5d04e1a942fcc331c378616.bindPopup(popup_26e8307c33a74c15b528229424d6f35c);
+
+            
+        
+    
+
+            var marker_864d3830f60344f9a6618a99f39cf4be = L.marker(
+                [47.8352551,-120.6423836],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f4b6d2dd309445638c8e37fd26698581 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b69a1927a754fc8bf3c8f3c43ddea2c = $('<div id="html_7b69a1927a754fc8bf3c8f3c43ddea2c" style="width: 100.0%; height: 100.0%;">“James Comey better hope that there are no ‘tapes’ of our conversations before he starts leaking to the press!” Mr. Trump posted on Twitter.</div>')[0];
+                popup_f4b6d2dd309445638c8e37fd26698581.setContent(html_7b69a1927a754fc8bf3c8f3c43ddea2c);
+            
+
+            marker_864d3830f60344f9a6618a99f39cf4be.bindPopup(popup_f4b6d2dd309445638c8e37fd26698581);
+
+            
+        
+    
+
+            var marker_1c6a881ec1d842aeba39d20e67c51bef = L.marker(
+                [38.8423315,-76.8297299],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_2fd0a1cce99b4e289c96ee4b78b7a675 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddd674f1d60844d08a0380b92c586d29 = $('<div id="html_ddd674f1d60844d08a0380b92c586d29" style="width: 100.0%; height: 100.0%;">Brigitte Macron, who is 24 years older than her husband, President-elect Emmanuel Macron and has coached him during his career, is expected to define her future role.</div>')[0];
+                popup_2fd0a1cce99b4e289c96ee4b78b7a675.setContent(html_ddd674f1d60844d08a0380b92c586d29);
+            
+
+            marker_1c6a881ec1d842aeba39d20e67c51bef.bindPopup(popup_2fd0a1cce99b4e289c96ee4b78b7a675);
+
+            
+        
+    
+
+            var marker_c2d3c7c599404cf58e0c12ebeb2f486b = L.marker(
+                [47.8022011,-120.6482696],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_842f397a59a9453da97b9689f4d13b3d = L.popup({maxWidth: '300'});
+
+            
+                var html_2d37b075c79d47be94ff27bd86acfebe = $('<div id="html_2d37b075c79d47be94ff27bd86acfebe" style="width: 100.0%; height: 100.0%;">The attacks amounted to an audacious global blackmail attempt spread by the internet, and underscored the vulnerabilities of the digital age.</div>')[0];
+                popup_842f397a59a9453da97b9689f4d13b3d.setContent(html_2d37b075c79d47be94ff27bd86acfebe);
+            
+
+            marker_c2d3c7c599404cf58e0c12ebeb2f486b.bindPopup(popup_842f397a59a9453da97b9689f4d13b3d);
+
+            
+        
+    
+
+            var marker_e46fe903b2e84696ae5924ccfabfdc50 = L.marker(
+                [34.1980803,-84.4621504],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b42ff9fcf0cb453484da59c40447d93d = L.popup({maxWidth: '300'});
+
+            
+                var html_a6e00cf4f50a4b87a7b7a2faf02b4627 = $('<div id="html_a6e00cf4f50a4b87a7b7a2faf02b4627" style="width: 100.0%; height: 100.0%;">Photos of our moms before they were mothers can challenge our ideas about motherhood.</div>')[0];
+                popup_b42ff9fcf0cb453484da59c40447d93d.setContent(html_a6e00cf4f50a4b87a7b7a2faf02b4627);
+            
+
+            marker_e46fe903b2e84696ae5924ccfabfdc50.bindPopup(popup_b42ff9fcf0cb453484da59c40447d93d);
+
+            
+        
+    
+
+            var marker_41561173bbf3479fbe0a9c9f9af3fd74 = L.marker(
+                [37.8098949,-78.7778638],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_eeb63fa6394743679102ca7a48b5121d = L.popup({maxWidth: '300'});
+
+            
+                var html_1df5fce978954ec282eb71e08d8128ad = $('<div id="html_1df5fce978954ec282eb71e08d8128ad" style="width: 100.0%; height: 100.0%;">What the experiences of nonmonogamous couples can tell us about jealousy, love, desire and trust.</div>')[0];
+                popup_eeb63fa6394743679102ca7a48b5121d.setContent(html_1df5fce978954ec282eb71e08d8128ad);
+            
+
+            marker_41561173bbf3479fbe0a9c9f9af3fd74.bindPopup(popup_eeb63fa6394743679102ca7a48b5121d);
+
+            
+        
+    
+
+            var marker_c4d15c63a3b44013acb300c6408c1646 = L.marker(
+                [47.8206381,-120.6362426],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_deedf82e3be349ca81093cb3ddfcfa07 = L.popup({maxWidth: '300'});
+
+            
+                var html_2dc6cd08b7754b4a852ab195438c7889 = $('<div id="html_2dc6cd08b7754b4a852ab195438c7889" style="width: 100.0%; height: 100.0%;">The aftermath of the firing of James B. Comey, the F.B.I. director, has reinforced the idea that the only person who can defend President Trump is Mr. Trump.</div>')[0];
+                popup_deedf82e3be349ca81093cb3ddfcfa07.setContent(html_2dc6cd08b7754b4a852ab195438c7889);
+            
+
+            marker_c4d15c63a3b44013acb300c6408c1646.bindPopup(popup_deedf82e3be349ca81093cb3ddfcfa07);
+
+            
+        
+    
+
+            var marker_100305b5b83048c0896f4787bf11c884 = L.marker(
+                [47.8319301,-120.6277956],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_3223dfb2386e4382a9e44cc8fb3ab5ad = L.popup({maxWidth: '300'});
+
+            
+                var html_08644edd396b445b8649563483ac986e = $('<div id="html_08644edd396b445b8649563483ac986e" style="width: 100.0%; height: 100.0%;">The press was not allowed into an Oval Office session between President Trump and Sergey V. Lavrov. Then the official Russian news agency published pictures of the event.</div>')[0];
+                popup_3223dfb2386e4382a9e44cc8fb3ab5ad.setContent(html_08644edd396b445b8649563483ac986e);
+            
+
+            marker_100305b5b83048c0896f4787bf11c884.bindPopup(popup_3223dfb2386e4382a9e44cc8fb3ab5ad);
+
+            
+        
+    
+
+            var marker_22f5e721cd98414685b556e07812da5f = L.marker(
+                [39.9903649,116.4691643],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4d261eae257e4d6d8f61fb8fe93c2669 = L.popup({maxWidth: '300'});
+
+            
+                var html_c73f9e49515d4221933808856a7f7b9f = $('<div id="html_c73f9e49515d4221933808856a7f7b9f" style="width: 100.0%; height: 100.0%;">After his swift and brutal victory, the mixed martial arts fighter has been accused of violating “the morals of martial arts,” and has gone into hiding.</div>')[0];
+                popup_4d261eae257e4d6d8f61fb8fe93c2669.setContent(html_c73f9e49515d4221933808856a7f7b9f);
+            
+
+            marker_22f5e721cd98414685b556e07812da5f.bindPopup(popup_4d261eae257e4d6d8f61fb8fe93c2669);
+
+            
+        
+    
+
+            var marker_54ddcbccaf534c14b3eb19eae78990b1 = L.marker(
+                [43.633507,0.0904979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9dea1fa195204129b34b94d97ced1c96 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa8583b604d44694b58b2015337cf782 = $('<div id="html_aa8583b604d44694b58b2015337cf782" style="width: 100.0%; height: 100.0%;">Experts recommend a multifaceted approach: Don’t answer unknown numbers, use call-blocking apps and report unwanted calls to the government.</div>')[0];
+                popup_9dea1fa195204129b34b94d97ced1c96.setContent(html_aa8583b604d44694b58b2015337cf782);
+            
+
+            marker_54ddcbccaf534c14b3eb19eae78990b1.bindPopup(popup_9dea1fa195204129b34b94d97ced1c96);
+
+            
+        
+    
+
+            var marker_48901bdb31ab4d87b5173e1b11d16a2c = L.marker(
+                [51.975512,19.257254],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_54a45546a9984b3e8ec5153257387bd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7c30a30021140e88d144fb16e44784a = $('<div id="html_f7c30a30021140e88d144fb16e44784a" style="width: 100.0%; height: 100.0%;">Nathan Trent - &amp;ldquo;Running on Air&amp;quot;</div>')[0];
+                popup_54a45546a9984b3e8ec5153257387bd0.setContent(html_f7c30a30021140e88d144fb16e44784a);
+            
+
+            marker_48901bdb31ab4d87b5173e1b11d16a2c.bindPopup(popup_54a45546a9984b3e8ec5153257387bd0);
+
+            
+        
+    
+
+            var marker_a845c20744da412e911668c0f48fe49a = L.marker(
+                [38.619434,-100.8068599],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_35790a57890b4e91b50fcdfa5e5958bb = L.popup({maxWidth: '300'});
+
+            
+                var html_72b3a1dbe2b44cdf954c4463ca327f91 = $('<div id="html_72b3a1dbe2b44cdf954c4463ca327f91" style="width: 100.0%; height: 100.0%;">In the words of Prince Harry, Buckingham Palace had not seen that much fun, ever.</div>')[0];
+                popup_35790a57890b4e91b50fcdfa5e5958bb.setContent(html_72b3a1dbe2b44cdf954c4463ca327f91);
+            
+
+            marker_a845c20744da412e911668c0f48fe49a.bindPopup(popup_35790a57890b4e91b50fcdfa5e5958bb);
+
+            
+        
+    
+
+            var marker_e560ac57aaff4a58ac83ce60690d2e77 = L.marker(
+                [52.4379497,4.9858349],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_91140447d2b54874b5deaec3e1606798 = L.popup({maxWidth: '300'});
+
+            
+                var html_212d5f5e05b2474397bd46a37bfdb654 = $('<div id="html_212d5f5e05b2474397bd46a37bfdb654" style="width: 100.0%; height: 100.0%;">Meet Joe Miller, the Celtic superfan who takes the scenic route to games and is not Steve McManaman’s cousin, despite what he might say.</div>')[0];
+                popup_91140447d2b54874b5deaec3e1606798.setContent(html_212d5f5e05b2474397bd46a37bfdb654);
+            
+
+            marker_e560ac57aaff4a58ac83ce60690d2e77.bindPopup(popup_91140447d2b54874b5deaec3e1606798);
+
+            
+        
+    
+
+            var marker_8fe5bbfd657c45ad91a50bb29c790eda = L.marker(
+                [52.7327618,-1.0461632],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_ee03b6494e69437b88b6d19d40ab2bf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9632540fa43b4cbd8bb18111808f81f4 = $('<div id="html_9632540fa43b4cbd8bb18111808f81f4" style="width: 100.0%; height: 100.0%;">It was one of the greatest European &amp;shy;finals and it cemented Saracens&amp;rsquo; place as one of the greatest English clubs sides of the professional era as they clinched a thrilling victory against a Clermont team who oozed class and courage but in the end did not have enough to stop their opponents&amp;rsquo; relentless march to more silverware.</div>')[0];
+                popup_ee03b6494e69437b88b6d19d40ab2bf4.setContent(html_9632540fa43b4cbd8bb18111808f81f4);
+            
+
+            marker_8fe5bbfd657c45ad91a50bb29c790eda.bindPopup(popup_ee03b6494e69437b88b6d19d40ab2bf4);
+
+            
+        
+    
+
+            var marker_c535a0faf1a0431f963221a39e1f4c1e = L.marker(
+                [60.531019,8.556614],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_bc470a44ea024be8a966f9e22ec19278 = L.popup({maxWidth: '300'});
+
+            
+                var html_63e8b18927844fb7b2494206d5131988 = $('<div id="html_63e8b18927844fb7b2494206d5131988" style="width: 100.0%; height: 100.0%;">If you&#39;re going to dedicate your life to duty, you might as well have fun while you&amp;rsquo;re at it.</div>')[0];
+                popup_bc470a44ea024be8a966f9e22ec19278.setContent(html_63e8b18927844fb7b2494206d5131988);
+            
+
+            marker_c535a0faf1a0431f963221a39e1f4c1e.bindPopup(popup_bc470a44ea024be8a966f9e22ec19278);
+
+            
+        
+    
+
+            var marker_04a4e455ce884da69fdfd6d6e10d47b4 = L.marker(
+                [43.16294,-76.1388956],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e94651f183d94ac98e46817b35d1eeef = L.popup({maxWidth: '300'});
+
+            
+                var html_b23c73654e2c4762ab0bef9c1a3bfe13 = $('<div id="html_b23c73654e2c4762ab0bef9c1a3bfe13" style="width: 100.0%; height: 100.0%;">The late, great push for fourth place is on for Arsene Wenger and while it is Liverpool who are in control, this dysfunctional Arsenal team has served notice again that they will push until the last game of the season next Sunday for the Champions League place they have a habit of securing.</div>')[0];
+                popup_e94651f183d94ac98e46817b35d1eeef.setContent(html_b23c73654e2c4762ab0bef9c1a3bfe13);
+            
+
+            marker_04a4e455ce884da69fdfd6d6e10d47b4.bindPopup(popup_e94651f183d94ac98e46817b35d1eeef);
+
+            
+        
+    
+
+            var marker_90a87a0917a34175a9849ea69920f866 = L.marker(
+                [46.327509,2.283302],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_0dc448e1f2c349a2b9376db121935ee8 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6dd80f8854d4dd0a2cb938b4d5a9be0 = $('<div id="html_d6dd80f8854d4dd0a2cb938b4d5a9be0" style="width: 100.0%; height: 100.0%;">Emmanuel Macron is a &amp;ldquo;war leader&amp;rdquo;, according to a policeman who commanded operations against the Bataclan terrorists and is now preparing to do battle as a parliamentary candidate for the president-elect&amp;rsquo;s party.</div>')[0];
+                popup_0dc448e1f2c349a2b9376db121935ee8.setContent(html_d6dd80f8854d4dd0a2cb938b4d5a9be0);
+            
+
+            marker_90a87a0917a34175a9849ea69920f866.bindPopup(popup_0dc448e1f2c349a2b9376db121935ee8);
+
+            
+        
+    
+
+            var marker_dca7a7ac87b74142a76360b625e2e6ea = L.marker(
+                [20.644393,79.013687],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_865c74c10f364d20af281a6c96f0c6b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_30e6c2cfa41144f48c6ab325f3022ea2 = $('<div id="html_30e6c2cfa41144f48c6ab325f3022ea2" style="width: 100.0%; height: 100.0%;">The candlelight march started at 7pm at the India Gate as people started coming out to pay their tributes to the hero. The young Army officer was murdered by suspected Hizbul militants on Wednesday.</div>')[0];
+                popup_865c74c10f364d20af281a6c96f0c6b3.setContent(html_30e6c2cfa41144f48c6ab325f3022ea2);
+            
+
+            marker_dca7a7ac87b74142a76360b625e2e6ea.bindPopup(popup_865c74c10f364d20af281a6c96f0c6b3);
+
+            
+        
+    
+
+            var marker_8431c1dfba304f81aa15f7bc7e7aaf57 = L.marker(
+                [19.1570977,72.9501199],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_78e331fbe2b441beb0d5f84dc3458d7e = L.popup({maxWidth: '300'});
+
+            
+                var html_18bc06a241844dada394cd79a54e7f1d = $('<div id="html_18bc06a241844dada394cd79a54e7f1d" style="width: 100.0%; height: 100.0%;">Mumbai Indians got back to winning ways with a nine-run win over Kolkata Knight Riders. And even though KKR failed in their attempt of going past the finishing line, they guaranteed themselves a spot in the Playoffs.</div>')[0];
+                popup_78e331fbe2b441beb0d5f84dc3458d7e.setContent(html_18bc06a241844dada394cd79a54e7f1d);
+            
+
+            marker_8431c1dfba304f81aa15f7bc7e7aaf57.bindPopup(popup_78e331fbe2b441beb0d5f84dc3458d7e);
+
+            
+        
+    
+
+            var marker_1755cb92fcbc4c1d87ddc8c218be8c4b = L.marker(
+                [35.945172,104.314524],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_05442bcf50554b5bb0311e51337bc6b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_38e7959baa2e4a97865fc790f1777fe3 = $('<div id="html_38e7959baa2e4a97865fc790f1777fe3" style="width: 100.0%; height: 100.0%;">Beijing suggested that it is ready keep the doors open for India to join the Belt program at a later date but will not budge from a construction program in Gilgit-Baltistan.</div>')[0];
+                popup_05442bcf50554b5bb0311e51337bc6b7.setContent(html_38e7959baa2e4a97865fc790f1777fe3);
+            
+
+            marker_1755cb92fcbc4c1d87ddc8c218be8c4b.bindPopup(popup_05442bcf50554b5bb0311e51337bc6b7);
+
+            
+        
+    
+
+            var marker_32c952615987400eae0fa975282c7d2f = L.marker(
+                [51.5893639,-0.0731513],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_63fcfa24ec8d40dab6c84f445c3a4f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_d350be1087804bee995bc914cb5ca043 = $('<div id="html_d350be1087804bee995bc914cb5ca043" style="width: 100.0%; height: 100.0%;">LONDON: An Indian-origin doctor based in London had warned against the cyber-hack of the UK&#39;s state-run National Health Service (NHS) just days before it crippled the country&#39;s network.</div>')[0];
+                popup_63fcfa24ec8d40dab6c84f445c3a4f42.setContent(html_d350be1087804bee995bc914cb5ca043);
+            
+
+            marker_32c952615987400eae0fa975282c7d2f.bindPopup(popup_63fcfa24ec8d40dab6c84f445c3a4f42);
+
+            
+        
+    
+
+            var marker_37e64c43b57c4c3fa506d2943218bee1 = L.marker(
+                [61.59661,105.387732],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_642bb7ad230c4b8496dde8e4d776cd17 = L.popup({maxWidth: '300'});
+
+            
+                var html_a542cb697f8641179b60d9d04c34a409 = $('<div id="html_a542cb697f8641179b60d9d04c34a409" style="width: 100.0%; height: 100.0%;">Cyber security experts rushed to restore systems on Saturday after an unprecedented global wave of cyberattacks that struck targets ranging from Russia&#39;s banks to British hospitals and a French carmaker&#39;s factories.</div>')[0];
+                popup_642bb7ad230c4b8496dde8e4d776cd17.setContent(html_a542cb697f8641179b60d9d04c34a409);
+            
+
+            marker_37e64c43b57c4c3fa506d2943218bee1.bindPopup(popup_642bb7ad230c4b8496dde8e4d776cd17);
+
+            
+        
+    
+
+            var marker_ef5f5cb007fe4422b33211da47a31d81 = L.marker(
+                [33.872612,76.6302834],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_2f613976cd504f63aee4567ef4b1b1b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_096f2b0032b041a580df5ff19a80e067 = $('<div id="html_096f2b0032b041a580df5ff19a80e067" style="width: 100.0%; height: 100.0%;">Zakir Musa, who was heading the Hizbul Mujahideen, quit the terrorist outfit on Saturday after the group refused to back his statement warning that separatist leaders would be beheaded for calling the Kashmir issue &#34;political&#34;.</div>')[0];
+                popup_2f613976cd504f63aee4567ef4b1b1b6.setContent(html_096f2b0032b041a580df5ff19a80e067);
+            
+
+            marker_ef5f5cb007fe4422b33211da47a31d81.bindPopup(popup_2f613976cd504f63aee4567ef4b1b1b6);
+
+            
+        
+    
+
+            var marker_883372edb1064cb599a97aedc5c7aeeb = L.marker(
+                [26.7438256,-81.8546565],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_1d6d06dfb57d4dd28d42ba99e1f7ded9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f4d4f0c2540845069f0414fe6a166178 = $('<div id="html_f4d4f0c2540845069f0414fe6a166178" style="width: 100.0%; height: 100.0%;">Bajrang Punia clinched India&#39;s first gold medal at the ongoing 2017 Asian Wrestling Championships on Saturday, the penultimate day of the tournament, after winning his 65kg freestyle final against Lee Seung-chul of Korea.</div>')[0];
+                popup_1d6d06dfb57d4dd28d42ba99e1f7ded9.setContent(html_f4d4f0c2540845069f0414fe6a166178);
+            
+
+            marker_883372edb1064cb599a97aedc5c7aeeb.bindPopup(popup_1d6d06dfb57d4dd28d42ba99e1f7ded9);
+
+            
+        
+    
+
+            var marker_1d417979bd4c4d2692e8f2beea8b2495 = L.marker(
+                [31.2421014,-96.0346661],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_077fa3c353d84ba4bcac26cb4075ecaa = L.popup({maxWidth: '300'});
+
+            
+                var html_9898f776a29747428a2586e873b51559 = $('<div id="html_9898f776a29747428a2586e873b51559" style="width: 100.0%; height: 100.0%;">A number of committee members believe their investigation is the least compromised by politics and scandal and has become a last line of defense against those forces.</div>')[0];
+                popup_077fa3c353d84ba4bcac26cb4075ecaa.setContent(html_9898f776a29747428a2586e873b51559);
+            
+
+            marker_1d417979bd4c4d2692e8f2beea8b2495.bindPopup(popup_077fa3c353d84ba4bcac26cb4075ecaa);
+
+            
+        
+    
+
+            var marker_37ed786be9504b598087d28aeea697f6 = L.marker(
+                [61.61249,105.409545],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9431d42c19d84867b1e1387020bde000 = L.popup({maxWidth: '300'});
+
+            
+                var html_57066492ee2642109b32cbc02b9a7174 = $('<div id="html_57066492ee2642109b32cbc02b9a7174" style="width: 100.0%; height: 100.0%;">If it doesn’t seem that way, that’s got more to do with the insatiable appetites of social media and cable news than with reality.</div>')[0];
+                popup_9431d42c19d84867b1e1387020bde000.setContent(html_57066492ee2642109b32cbc02b9a7174);
+            
+
+            marker_37ed786be9504b598087d28aeea697f6.bindPopup(popup_9431d42c19d84867b1e1387020bde000);
+
+            
+        
+    
+
+            var marker_462a7d9e7cbe4d71b3badebe4fda6262 = L.marker(
+                [32.5351971,-97.2757971],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8f08063298b44e75800c5a86fe8940c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_005e1b8518d14584b95e66d253545641 = $('<div id="html_005e1b8518d14584b95e66d253545641" style="width: 100.0%; height: 100.0%;">President, vice president and the chief of staff bear responsibility for what became one messy week</div>')[0];
+                popup_8f08063298b44e75800c5a86fe8940c4.setContent(html_005e1b8518d14584b95e66d253545641);
+            
+
+            marker_462a7d9e7cbe4d71b3badebe4fda6262.bindPopup(popup_8f08063298b44e75800c5a86fe8940c4);
+
+            
+        
+    
+
+            var marker_57f1daeecb4d4bb8aa97914ac67f98fb = L.marker(
+                [37.5229124,-78.5983642],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e6021e48cd8145c287820482ce04fe23 = L.popup({maxWidth: '300'});
+
+            
+                var html_12d3b9678ac24a88a30e4037af467af2 = $('<div id="html_12d3b9678ac24a88a30e4037af467af2" style="width: 100.0%; height: 100.0%;">Interviews started on Saturday, and a selection could be made by next Friday.</div>')[0];
+                popup_e6021e48cd8145c287820482ce04fe23.setContent(html_12d3b9678ac24a88a30e4037af467af2);
+            
+
+            marker_57f1daeecb4d4bb8aa97914ac67f98fb.bindPopup(popup_e6021e48cd8145c287820482ce04fe23);
+
+            
+        
+    
+
+            var marker_f7b5262b4ec44221a756f4a4341879e5 = L.marker(
+                [39.3641999,-76.6372581],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6978d9a1aaf04129b8607e500ab44930 = L.popup({maxWidth: '300'});
+
+            
+                var html_7413bd43dd5c4eb18845538b98c16271 = $('<div id="html_7413bd43dd5c4eb18845538b98c16271" style="width: 100.0%; height: 100.0%;">You can work full time but not have the money to fix your teeth – visible reminders of the divide between rich and poor.</div>')[0];
+                popup_6978d9a1aaf04129b8607e500ab44930.setContent(html_7413bd43dd5c4eb18845538b98c16271);
+            
+
+            marker_f7b5262b4ec44221a756f4a4341879e5.bindPopup(popup_6978d9a1aaf04129b8607e500ab44930);
+
+            
+        
+    
+
+            var marker_d6fe3e901ae4464fad2c7dee34b76331 = L.marker(
+                [45.3225728,-94.8722878],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e5e0db45ef634914a7a7578ff44197fd = L.popup({maxWidth: '300'});
+
+            
+                var html_06582e23c1984a4e84571d362d838dae = $('<div id="html_06582e23c1984a4e84571d362d838dae" style="width: 100.0%; height: 100.0%;">White House staffers struggle to speak on behalf of a president who directly contradicts them.</div>')[0];
+                popup_e5e0db45ef634914a7a7578ff44197fd.setContent(html_06582e23c1984a4e84571d362d838dae);
+            
+
+            marker_d6fe3e901ae4464fad2c7dee34b76331.bindPopup(popup_e5e0db45ef634914a7a7578ff44197fd);
+
+            
+        
+    
+
+            var marker_b790ef770c604be3ad727f92ca5895a6 = L.marker(
+                [39.9692159,116.5017623],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_2f5a44368a494f4ba543192b7e355b97 = L.popup({maxWidth: '300'});
+
+            
+                var html_005626921f2144fda05cc5f55e0856ad = $('<div id="html_005626921f2144fda05cc5f55e0856ad" style="width: 100.0%; height: 100.0%;">The ransomware attack that has affected 100 nations left organizations and individuals scrambling as officials continued to probe who was behind the breach, which exploits a flaw identified by the NSA.</div>')[0];
+                popup_2f5a44368a494f4ba543192b7e355b97.setContent(html_005626921f2144fda05cc5f55e0856ad);
+            
+
+            marker_b790ef770c604be3ad727f92ca5895a6.bindPopup(popup_2f5a44368a494f4ba543192b7e355b97);
+
+            
+        
+    
+
+            var marker_21c7f4e728164330bd3b1c07e2fb226d = L.marker(
+                [45.697778,-96.9575641],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_3bfede433bf34b4ea3e34a3b4609923e = L.popup({maxWidth: '300'});
+
+            
+                var html_631d5f3c6dbc4c3ca6bbe2164146bbed = $('<div id="html_631d5f3c6dbc4c3ca6bbe2164146bbed" style="width: 100.0%; height: 100.0%;">Giuliani&#39;s comments on the ban have been cited by federal judges who have put the measure on hold.</div>')[0];
+                popup_3bfede433bf34b4ea3e34a3b4609923e.setContent(html_631d5f3c6dbc4c3ca6bbe2164146bbed);
+            
+
+            marker_21c7f4e728164330bd3b1c07e2fb226d.bindPopup(popup_3bfede433bf34b4ea3e34a3b4609923e);
+
+            
+        
+    
+
+            var marker_769b090fc8124f6ebc1888a76dfa323e = L.marker(
+                [47.8337311,-120.6717606],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_867eb3712e784fd0ab6140cbfbe60a3a = L.popup({maxWidth: '300'});
+
+            
+                var html_2cf0f2ea373a4f939e0dfd4a34546723 = $('<div id="html_2cf0f2ea373a4f939e0dfd4a34546723" style="width: 100.0%; height: 100.0%;">In a commencement address, the president likened what he faces as a political outsider in Washington to what he said Christians encounter in a secular world.</div>')[0];
+                popup_867eb3712e784fd0ab6140cbfbe60a3a.setContent(html_2cf0f2ea373a4f939e0dfd4a34546723);
+            
+
+            marker_769b090fc8124f6ebc1888a76dfa323e.bindPopup(popup_867eb3712e784fd0ab6140cbfbe60a3a);
+
+            
+        
+    
+
+            var marker_0466360417a04db1b721170bf517c4a5 = L.marker(
+                [39.3835288,-76.5480093],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5da1ea72a00c4b8fb6a55f577ac034f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b5349e80a19496e9da5d46337211b14 = $('<div id="html_5b5349e80a19496e9da5d46337211b14" style="width: 100.0%; height: 100.0%;">Americans are increasingly eating organic foods from overseas. But fooling regulators is all too easy, critics say.</div>')[0];
+                popup_5da1ea72a00c4b8fb6a55f577ac034f0.setContent(html_5b5349e80a19496e9da5d46337211b14);
+            
+
+            marker_0466360417a04db1b721170bf517c4a5.bindPopup(popup_5da1ea72a00c4b8fb6a55f577ac034f0);
+
+            
+        
+    
+
+            var marker_4c0572101cec4bd28cca54a73336e890 = L.marker(
+                [37.5223694,-78.5685482],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_5fe2201ddf6d4c9fbb2f06d742ca3935 = L.popup({maxWidth: '300'});
+
+            
+                var html_65f23ba2904a44eda027c0ce009a9e3a = $('<div id="html_65f23ba2904a44eda027c0ce009a9e3a" style="width: 100.0%; height: 100.0%;">Four candidates have interviews scheduled Saturday</div>')[0];
+                popup_5fe2201ddf6d4c9fbb2f06d742ca3935.setContent(html_65f23ba2904a44eda027c0ce009a9e3a);
+            
+
+            marker_4c0572101cec4bd28cca54a73336e890.bindPopup(popup_5fe2201ddf6d4c9fbb2f06d742ca3935);
+
+            
+        
+    
+
+            var marker_9736bf265ebf4059ae9be7e614d65982 = L.marker(
+                [42.485451,-83.1927441],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_694a91f141a7481e964065559c1fce23 = L.popup({maxWidth: '300'});
+
+            
+                var html_087e672689e8433881aa11285b7a51ce = $('<div id="html_087e672689e8433881aa11285b7a51ce" style="width: 100.0%; height: 100.0%;">The Christian school&#39;s leader was among Trump&#39;s earliest and supporters</div>')[0];
+                popup_694a91f141a7481e964065559c1fce23.setContent(html_087e672689e8433881aa11285b7a51ce);
+            
+
+            marker_9736bf265ebf4059ae9be7e614d65982.bindPopup(popup_694a91f141a7481e964065559c1fce23);
+
+            
+        
+    
+
+            var marker_4b87cd2033944ebabad23252f637dc0a = L.marker(
+                [39.9790629,116.5092573],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_4d53fc50365640909e113997fc4d0f97 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbea71b734e24b3d95b19eeb0abe196c = $('<div id="html_fbea71b734e24b3d95b19eeb0abe196c" style="width: 100.0%; height: 100.0%;">&#34;If the conditions are set,&#34; said North Korean diplomat Choi Sun-hee</div>')[0];
+                popup_4d53fc50365640909e113997fc4d0f97.setContent(html_fbea71b734e24b3d95b19eeb0abe196c);
+            
+
+            marker_4b87cd2033944ebabad23252f637dc0a.bindPopup(popup_4d53fc50365640909e113997fc4d0f97);
+
+            
+        
+    
+
+            var marker_e2449cf8b548416b8962edeb275774f5 = L.marker(
+                [42.6074286,-83.6831942],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8d87805977124c538d72d8179384f28e = L.popup({maxWidth: '300'});
+
+            
+                var html_2f9cfe93607c44b4bd0e0fb09cd774fa = $('<div id="html_2f9cfe93607c44b4bd0e0fb09cd774fa" style="width: 100.0%; height: 100.0%;">The letter was sent in response to a &#39;Scientific American&#39; article</div>')[0];
+                popup_8d87805977124c538d72d8179384f28e.setContent(html_2f9cfe93607c44b4bd0e0fb09cd774fa);
+            
+
+            marker_e2449cf8b548416b8962edeb275774f5.bindPopup(popup_8d87805977124c538d72d8179384f28e);
+
+            
+        
+    
+
+            var marker_b7adf421cefa48659aead6946cc84141 = L.marker(
+                [51.5675199,-0.0668663],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_20a6b15f826e46b396ab026c0261b00f = L.popup({maxWidth: '300'});
+
+            
+                var html_01c5a9fddf1f4f0290c165227ea3304b = $('<div id="html_01c5a9fddf1f4f0290c165227ea3304b" style="width: 100.0%; height: 100.0%;">Tens of thousands of computers have been infected</div>')[0];
+                popup_20a6b15f826e46b396ab026c0261b00f.setContent(html_01c5a9fddf1f4f0290c165227ea3304b);
+            
+
+            marker_b7adf421cefa48659aead6946cc84141.bindPopup(popup_20a6b15f826e46b396ab026c0261b00f);
+
+            
+        
+    
+
+            var marker_3372c208ddd6452295f78086d4ebf930 = L.marker(
+                [31.838219,35.290706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_6278d8f880bf4f77ab6599c575368c23 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4880d0bdf8347febe6d29a4982860be = $('<div id="html_e4880d0bdf8347febe6d29a4982860be" style="width: 100.0%; height: 100.0%;">Jordan denounced the &#34;crime&#34;</div>')[0];
+                popup_6278d8f880bf4f77ab6599c575368c23.setContent(html_e4880d0bdf8347febe6d29a4982860be);
+            
+
+            marker_3372c208ddd6452295f78086d4ebf930.bindPopup(popup_6278d8f880bf4f77ab6599c575368c23);
+
+            
+        
+    
+
+            var marker_dc3016d146004301b57b520430abfc90 = L.marker(
+                [26.886752,30.899261],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_f95a8b4710e24b9d9f7daa0598c01764 = L.popup({maxWidth: '300'});
+
+            
+                var html_89745d36888b45708deabd10b746e29f = $('<div id="html_89745d36888b45708deabd10b746e29f" style="width: 100.0%; height: 100.0%;">The find is expected to be &#34;much bigger&#34; as work continues</div>')[0];
+                popup_f95a8b4710e24b9d9f7daa0598c01764.setContent(html_89745d36888b45708deabd10b746e29f);
+            
+
+            marker_dc3016d146004301b57b520430abfc90.bindPopup(popup_f95a8b4710e24b9d9f7daa0598c01764);
+
+            
+        
+    
+
+            var marker_6b4e50e7e9c2465eac1b5732d12faf43 = L.marker(
+                [42.1048232,-87.7742082],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8e0cba5a5d714527b059ab83af8f600e = L.popup({maxWidth: '300'});
+
+            
+                var html_e087b3692bf6429cbdada00843cd3eed = $('<div id="html_e087b3692bf6429cbdada00843cd3eed" style="width: 100.0%; height: 100.0%;">The 90-year-old singer hopes to return to performing &#34;very soon&#34;</div>')[0];
+                popup_8e0cba5a5d714527b059ab83af8f600e.setContent(html_e087b3692bf6429cbdada00843cd3eed);
+            
+
+            marker_6b4e50e7e9c2465eac1b5732d12faf43.bindPopup(popup_8e0cba5a5d714527b059ab83af8f600e);
+
+            
+        
+    
+
+            var marker_5f16e169710640a9ad089ba636a5d25b = L.marker(
+                [38.518199,27.249725],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_95746db6e21245f39f9da20e4dae5581 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb5789416cf4466aaf4b48b5c6ac5a50 = $('<div id="html_eb5789416cf4466aaf4b48b5c6ac5a50" style="width: 100.0%; height: 100.0%;">The driver is among the dead</div>')[0];
+                popup_95746db6e21245f39f9da20e4dae5581.setContent(html_eb5789416cf4466aaf4b48b5c6ac5a50);
+            
+
+            marker_5f16e169710640a9ad089ba636a5d25b.bindPopup(popup_95746db6e21245f39f9da20e4dae5581);
+
+            
+        
+    
+
+            var marker_cee5e75d1ed545dfb4fe4390397275e5 = L.marker(
+                [37.5078294,-78.5997202],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_27d71f5ff625416dba439ffed22d0633 = L.popup({maxWidth: '300'});
+
+            
+                var html_747ab39f986e404dbf8ee5b399e0d93c = $('<div id="html_747ab39f986e404dbf8ee5b399e0d93c" style="width: 100.0%; height: 100.0%;">Authorities say he cleared a lockbox, dismantled his in-car GPS system and bought a 2-seat kayak,</div>')[0];
+                popup_27d71f5ff625416dba439ffed22d0633.setContent(html_747ab39f986e404dbf8ee5b399e0d93c);
+            
+
+            marker_cee5e75d1ed545dfb4fe4390397275e5.bindPopup(popup_27d71f5ff625416dba439ffed22d0633);
+
+            
+        
+    
+
+            var marker_061738e6dc2d43efb3ede960020c8ac9 = L.marker(
+                [61.580452,105.38154],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_dac8fe3e35c8456bba84065448c45670 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ec2ef3584cc4042b52eea4eed7a0885 = $('<div id="html_7ec2ef3584cc4042b52eea4eed7a0885" style="width: 100.0%; height: 100.0%;">In a letter to DOJ brass, the group praised fired FBI director James Comey as &#34;ethical.&#34;</div>')[0];
+                popup_dac8fe3e35c8456bba84065448c45670.setContent(html_7ec2ef3584cc4042b52eea4eed7a0885);
+            
+
+            marker_061738e6dc2d43efb3ede960020c8ac9.bindPopup(popup_dac8fe3e35c8456bba84065448c45670);
+
+            
+        
+    
+
+            var marker_807f2ee36bec4c319a00e5561a198fa1 = L.marker(
+                [26.895838,30.903078],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_0bba0df381544b129a2aacea96862af0 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b720482555a41c2b3d9ca2cd6cadde8 = $('<div id="html_6b720482555a41c2b3d9ca2cd6cadde8" style="width: 100.0%; height: 100.0%;">The area hosts a large necropolis for thousands of mummified ibis and baboon birds as well as other animals.</div>')[0];
+                popup_0bba0df381544b129a2aacea96862af0.setContent(html_6b720482555a41c2b3d9ca2cd6cadde8);
+            
+
+            marker_807f2ee36bec4c319a00e5561a198fa1.bindPopup(popup_0bba0df381544b129a2aacea96862af0);
+
+            
+        
+    
+
+            var marker_ade57c8cba9d4b6aba14cb96b634b2a3 = L.marker(
+                [37.5112344,-78.6039932],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8b4944c72e1e4fae825dbbcaff305ffc = L.popup({maxWidth: '300'});
+
+            
+                var html_16673f258eb64564a89882894531a673 = $('<div id="html_16673f258eb64564a89882894531a673" style="width: 100.0%; height: 100.0%;">The president told students and parents at the conservative religious school &#34;nothing is easier or more pathetic than being a critic.&#34;</div>')[0];
+                popup_8b4944c72e1e4fae825dbbcaff305ffc.setContent(html_16673f258eb64564a89882894531a673);
+            
+
+            marker_ade57c8cba9d4b6aba14cb96b634b2a3.bindPopup(popup_8b4944c72e1e4fae825dbbcaff305ffc);
+
+            
+        
+    
+
+            var marker_690538878f7740bd9df5b61d2bdcf42f = L.marker(
+                [37.141466,-95.625209],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_068c3f23452f487b8c4d62f44e3f0ab5 = L.popup({maxWidth: '300'});
+
+            
+                var html_371abfa2e318421a832ce7cd9fa30935 = $('<div id="html_371abfa2e318421a832ce7cd9fa30935" style="width: 100.0%; height: 100.0%;">A fiery former first lady says something is &#34;wrong&#34; when the government doesn&#39;t want kids to eat healthy meals.</div>')[0];
+                popup_068c3f23452f487b8c4d62f44e3f0ab5.setContent(html_371abfa2e318421a832ce7cd9fa30935);
+            
+
+            marker_690538878f7740bd9df5b61d2bdcf42f.bindPopup(popup_068c3f23452f487b8c4d62f44e3f0ab5);
+
+            
+        
+    
+
+            var marker_301512af7c4b4dde86f316e46f90527b = L.marker(
+                [51.5586469,-0.0182913],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_e0be1c198d5242a4956ba2accc1bec5d = L.popup({maxWidth: '300'});
+
+            
+                var html_163e5629fd714d12b6365a77cb948fb7 = $('<div id="html_163e5629fd714d12b6365a77cb948fb7" style="width: 100.0%; height: 100.0%;">The attack was unintentionally stopped by a 22-year-old security researcher who was on vacation at the time.</div>')[0];
+                popup_e0be1c198d5242a4956ba2accc1bec5d.setContent(html_163e5629fd714d12b6365a77cb948fb7);
+            
+
+            marker_301512af7c4b4dde86f316e46f90527b.bindPopup(popup_e0be1c198d5242a4956ba2accc1bec5d);
+
+            
+        
+    
+
+            var marker_97a59c8b0403494a8ce749d340c7bb0c = L.marker(
+                [41.9325826,-87.5460922],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_8dece4fde3034d4eb5f088d48d8cdbb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5bac1738f696438e8e2613d10411729a = $('<div id="html_5bac1738f696438e8e2613d10411729a" style="width: 100.0%; height: 100.0%;">Secretary of Education Betsy DeVos was booed and jeered by Bethune-Cookman University graduates, but when does protesting a college commencement speaker become too much?</div>')[0];
+                popup_8dece4fde3034d4eb5f088d48d8cdbb0.setContent(html_5bac1738f696438e8e2613d10411729a);
+            
+
+            marker_97a59c8b0403494a8ce749d340c7bb0c.bindPopup(popup_8dece4fde3034d4eb5f088d48d8cdbb0);
+
+            
+        
+    
+
+            var marker_e78d58d962444fc19649d140c809d8d7 = L.marker(
+                [36.84312,-119.3286224],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_b91ac5fd526b45d484c79bdb4bdfcaa3 = L.popup({maxWidth: '300'});
+
+            
+                var html_1cdb0ad5338e4a61a705191a592ace0e = $('<div id="html_1cdb0ad5338e4a61a705191a592ace0e" style="width: 100.0%; height: 100.0%;">A California woman who was found dead in her swimming pool recorded her own murder, police say.</div>')[0];
+                popup_b91ac5fd526b45d484c79bdb4bdfcaa3.setContent(html_1cdb0ad5338e4a61a705191a592ace0e);
+            
+
+            marker_e78d58d962444fc19649d140c809d8d7.bindPopup(popup_b91ac5fd526b45d484c79bdb4bdfcaa3);
+
+            
+        
+    
+
+            var marker_ea10746e2c4b4501b3008643fb9a838a = L.marker(
+                [10.5797597,-66.8328513],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_449e21f4ec6d4fdbb4eea5af0b81a863);
+            
+    
+            var popup_9f10c6a8c11548e4aa0e6705f2f6117d = L.popup({maxWidth: '300'});
+
+            
+                var html_daaa2f2a547842ef832e2b2203897062 = $('<div id="html_daaa2f2a547842ef832e2b2203897062" style="width: 100.0%; height: 100.0%;">The body of Reinaldo Jose Herrera, a businessman and the nephew of fashion designer Carolina Herrera was discovered with that of another man in Caracas Thursday night.</div>')[0];
+                popup_9f10c6a8c11548e4aa0e6705f2f6117d.setContent(html_daaa2f2a547842ef832e2b2203897062);
+            
+
+            marker_ea10746e2c4b4501b3008643fb9a838a.bindPopup(popup_9f10c6a8c11548e4aa0e6705f2f6117d);
+
+            
+        
+</script>
